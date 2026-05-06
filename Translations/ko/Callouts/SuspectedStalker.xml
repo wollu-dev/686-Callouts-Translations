@@ -1,0 +1,56 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[스토커 의심 신고]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~민간인~w~이 미행당하고 있다고 신고함. ~y~안전 확보 요망~w~.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 맞아요, 저 스토커입니다. 근데 감옥은 싫어서 다시 안 갈 거예요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[~r~피해자 사진~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 저리 가요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 진정하세요. 스토킹 신고가 들어왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 꺼져요, 아무것도 안 했어요. 그냥 말 대 말이잖아요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 저희와 대화를 거부하시겠다는 건가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 네, 맞아요! 경찰이랑 대화 안 해요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[스토커일 가능성 낮음. 기록 이상 없음. 대화 마치고 ~y~피해자에게 복귀 요망~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 안녕하세요 경관님, 무슨 도움이 필요하세요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 스토킹 신고를 받았습니다. 사실인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~용의자:~w~ 세상에, 아니요! 전혀요. 착각이거나 혼동이 있는 것 같아요. 그냥 쇼핑하다 같은 방향으로 간 것뿐이에요. 신고된 인상착의와 저는 다를 거예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 신고에 특별한 인상착의 설명은 없었습니다. Dispatch에 확인해 보겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~용의자:~w~ 물론이죠, 쇼핑은 나중에 해도 되니까요.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 가셔도 됩니다. 착각이었던 것 같습니다. 좋은 하루 보내세요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="confused"><![CDATA[~y~피해자:~w~ 다시 만나네요, 어떻게 됐나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 대화해봤는데, 스토킹이었을 가능성은 낮습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~피해자:~w~ 정말 죄송해요. 제가 너무 일찍 신고한 것 같아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮습니다. 안전을 위한 행동이었으니까요. 다음엔 확실하지 않을 때 알려주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~피해자:~w~ 네, 불필요한 수고를 끼쳐서 정말 죄송해요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[용의자 위치 확인됨. ~y~대화 마치고~w~ 즉시 이동 요망.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 경관님, 정말 다행이에요! 미행당하고 있어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이제 왔습니다. 무슨 일이 있었는지 설명해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 미행을 당했어요... 근데 어떻게 생겼는지 기억이 안 나요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮습니다. 긴박한 상황에서 잊어버리는 건 자연스러운 반응이에요. CCTV 카메라 요원들에게 영상 확인 요청하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ ~y~{0}~w~에서 약 15분 전에 있었어요. 그렇게 말씀해 주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 감사합니다. 지금 전달하겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 현재 영상을 확인 중입니다. 추가 정보가 있으신가요? 많을수록 좋습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 없어요, 2시간 동안 미행당한 이유를 전혀 모르겠어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 걱정 마세요, 해결하겠습니다.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 용의자 위치를 파악했습니다. 지금 이동하겠습니다. 계속 일상 생활 하시거나 귀가하셔도 됩니다. 연락드리겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

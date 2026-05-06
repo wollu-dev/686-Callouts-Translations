@@ -1,0 +1,21 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[VIP 대피]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 VIP가 따라오게 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~가 이제 ~g~따라오고 있음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[가능한 빨리 ~o~VIP를 경찰서로 대피~w~ 요망!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~VIP 안전하게 구출됐음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~VIP 사망.~w~ ~y~남은 적 제압 후~w~ 적절히 처리 바람!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~p~VIP~w~에게 더 가까이 접근해서 ~g~따라오도록~w~ 지시 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~미확인 헬기~w~가 인근 공역 진입 중임.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIP 경호팀이 ~r~공격받고 있음~w~. 위협을 ~y~제압~w~하고 추가 지시 대기 요망!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~g~VIP를 보호!~w~ 현장이 통제되면 Dispatch에서 추가 지시 제공 예정.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[VIP 경호팀이 ~r~제압됐음~w~. ~y~인질로 잡힌~w~ VIP 구출 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~무장 공격자에게 발견되지 않도록~w~ 은밀하게 ~y~VIP에게 접근~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~발각됐음~w~. ~o~공격자들의 표적~w~이 될 VIP ~g~보호~w~ 요망.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>

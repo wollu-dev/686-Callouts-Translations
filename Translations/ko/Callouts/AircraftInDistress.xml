@@ -1,0 +1,117 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[조난 항공기]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~는 착륙 ~y~시도 전~w~ 잠시 ~y~선회 비행~w~을 유지할 것임.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[항공기가 ~y~{0}~w~에서 ~r~비상 착륙~w~ 시도 중. 지정 착륙 구역으로 이동 후 추가 지시 대기 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~의 ~r~비상 착륙~w~ 허가됨.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~가 ~y~{0}~w~에 ~g~안전하게 착륙~w~. Code 4.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~조종사~w~와 대화 후 상황 파악 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[항공기 착륙 완료. ~y~조종사와 대화~w~해서 이상 없는지 확인 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~항공기 생성 불가~w~. 신고 재시도 또는 지원팀 문의 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~의 레이더 위치 신호 ~y~소실됨~w~. ~o~항공기~w~ ~y~시각 확인~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~의 레이더 위치 신호 ~g~재포착됨~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~ ~r~추락~w~. 추락 지점으로 경로 안내 중. 대기 후 적절히 처리 바람.]]></NOTIFICATION>
+		<OTHER><![CDATA[로스 산토스 국제공항]]></OTHER>
+		<OTHER><![CDATA[샌디 쇼어스 비행장]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~가 ~y~엔진 고장~w~ 발생. 착륙 구역으로 이동해서 착륙에 대비 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~조종사:~w~ 감사합니다, 경관님! 착륙은 어떻게 보셨나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 엔진이 연기를 뿜는 상황치고는 꽤 훌륭했는데요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="appreciative"><![CDATA[~y~조종사:~w~ 확인하러 와주셔서 감사해요. 필요한 건 없으신가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮습니다, 혹시 모를 상황에 대비해 나온 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~조종사:~w~ 정비사한테 엔진 점검을 맡겨야겠어요. 몇 분만 더 비행했다면 안전하게 착륙 못 했을 수도 있어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잘 대처하셨어요. 비행기 살펴보시고, 안전하게 지내세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~조종사:~w~ 감사합니다, 경관님. 불편을 드려서 죄송해요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~ 내 승객 ~r~사망~w~. 조종사와 대화해서 상황이 ~y~수상한지~w~ 확인 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 기장님, 비행 중에 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~조종사:~w~ 네... 친구를 태우고 비행하던 중에 갑자기 의식을 잃었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 정확히 어떻게 된 건지 설명해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="stressed"><![CDATA[~y~조종사:~w~ 오늘 공역이 혼잡해서 비행에 집중하고 있었는데, 돌아보니 반응이 없었어요. 곧바로 비상 착륙했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 친구분이 건강에 관해 말씀하신 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~조종사:~w~ 솔직히 그런 얘기는 한 적이 없어요. 비행에 문제없을 거라 생각했는데...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지금부터 이곳은 범죄 현장입니다. 조사를 진행해도 되겠습니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cooperative"><![CDATA[~y~조종사:~w~ 물론이죠, 경관님. 최대한 협조하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<OTHER><![CDATA[~r~클로로포름 천~w~]]></OTHER>
+		<OTHER><![CDATA[~r~질식 흔적~w~]]></OTHER>
+		<OTHER><![CDATA[~y~베개~w~]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~o~항공기~w~가 ~y~언제든 폭발 위험~w~ 있음. ~y~민간인을 차량 이동 경로에서 벗어나게 하거나~w~, 최대한 빠르게 ~y~추격 종료~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~ ~r~폭발~w~. 적절히 처리 바람.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~당신:~w~ 빨리 비행기에서 내려서 따라오세요! 서두르세요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~가 ~y~엔진 고장~w~으로 비상 착륙 필요. ~n~보고에 따르면 ~r~활주로 차단 상태~w~. 항공기 착륙 전 제거 요망!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~항공기~w~ 착륙 시도 전 차량 제거 후 조종사와 대화~w~ 요망.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 아슬아슬했네요. 제때 활주로를 치워주셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 천만에요. 차량을 치울 수 있어서 다행이에요. 비행기 상태는 어떤가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~조종사:~w~ 최악은 면했어요. 엔진 문제가 심각했는데, 그래도 안전하게 착륙했네요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 상황을 고려하면 정말 잘 대처하셨어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="modest"><![CDATA[~y~조종사:~w~ 감사해요, 제 일을 한 것뿐이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 맞는 말씀이에요. 무사하셔서 정말 다행이에요. 필요한 게 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confident"><![CDATA[~y~조종사:~w~ 괜찮아요, 잘 처리할 수 있어요. 지상 요원들이 오고 있거든요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠습니다. 필요한 게 있으면 알려주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~조종사:~w~ 그럴게요, 다시 한번 감사합니다, 경관님.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~에서 ~y~밀항자로 추정되는 인물~w~ 탑승 신고됨. 항공기 착륙 후 검거 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[지난 24시간 내 ~y~탈주한 수감자~w~ 확인 중. 대기 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[지난 24시간 내 ~y~{0}~w~ 탈주 확인됨. 용의자 아직 미검거 상태.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 ~o~항공기~w~ 수색 요망.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 무슨 도움이 필요하신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~조종사:~w~ 비행 중에 기내에서 뭔가 뒤적거리는 소리가 들렸어요. 동물 같은 소리였는데요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 최근에 항공기를 무인으로 방치한 적 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~조종사:~w~ 네, 격납고가 없어서 며칠 동안 밖에 세워뒀어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무엇인 것 같으세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~y~조종사:~w~ 경관님, 밀항자가 탔을 것 같아요. 직접 확인하기가 무서워서요. 수색해 주실 수 있을까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ Dispatch에 확인해볼게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지금 항공기를 수색하겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~b~당신:~w~ 움직이지 마! 여기서 뭐 하는 거야?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~밀항자:~w~ 아, 저는... 그냥 어딘가로 가려고 했어요. 저를 잘못 보신 것 같은데요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 변명은 필요 없어. 네가 누군지 다 알고 있어.]]></DIALOGUE>
+			<DIALOGUE EMOTION="persistent"><![CDATA[~r~밀항자:~w~ 경관님, 맹세코 해를 끼치려던 게 아니에요. 그냥 빠져나갈 방법이 필요했을 뿐이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 빠져나갈 방법? 글쎄, 확실히 찾은 것 같네. 영장을 달고 돌아다니면 다시 감방으로 가는 거야.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~밀항자:~w~ 제발, 이해해 주세요. 복잡한 사정이 있어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 복잡한 사정이 법을 어길 이유가 되진 않아. 같이 가자.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~가 비행 중 ~y~창문 파손~w~으로 비상 착륙 필요. 착륙 구역으로 이동 후 대기 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 경관님, 와주셔서 감사해요. 정말 힘든 착륙이었네요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 수고하셨어요, 기장님. 창문 파손 신고를 받았습니다. 괜찮으세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shaken"><![CDATA[~y~조종사:~w~ 네, 좀 놀랐을 뿐이에요. 비행 중에 창문이 깨진 건 처음이라서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잘 대처하셨어요. 어떻게 그렇게 침착하게 대응하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 오랜 훈련 덕분이죠. 집중을 유지하면서 안전하게 착륙하는 것뿐이었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 정말 훌륭하셨어요. 혹시 몰라서 비상 의료팀도 대기시켰는데, 다행히 필요 없었네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 저도요. 도와주셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 언제든지요, 기장님. 그게 저희 일이에요. 안전하게 지내시고, 필요한 게 있으면 알려주세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+	<OUTCOME6>
+		<FURTHERINFORMATION><![CDATA[~o~항공기~w~가 ~y~악천후~w~로 비상 착륙 필요. 착륙 구역으로 이동 후 대기 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 후, 꽤 힘든 착륙이었네요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮으세요, 기장님? 폭풍이 갑자기 들이닥쳤네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 네. 기상 레이더가 실제 난기류를 제대로 잡아내지 못했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안전하게 착륙하셔서 정말 다행이에요. 걱정했습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 감사해요, 경관님. 원활하게 진행될 수 있도록 자리 지켜주셔서 감사합니다. 아슬아슬한 순간이 있었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무사하셔서 다행이에요. 필요한 게 있으면 알려주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~조종사:~w~ 다시 한번 감사드려요. 준비가 되면 ATC에 연락할게요. 날씨가 빨리 좋아졌으면 좋겠네요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그러길 바랍니다. 조심히 가세요, 기장님. 정말 수고하셨어요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME6>
+</CALLOUT>

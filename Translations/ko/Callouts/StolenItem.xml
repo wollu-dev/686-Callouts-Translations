@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[물품 절도]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~절도~w~ 사건 발생. 피해자와 대화 후 수사 진행 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[용의자가 ~y~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[도보로 이동 중~w~임.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[차량으로 이동 중~w~임.]]></NOTIFICATION>
+		<OTHER><![CDATA[휴대폰]]></OTHER>
+		<OTHER><![CDATA[노트북]]></OTHER>
+		<OTHER><![CDATA[지갑]]></OTHER>
+		<OTHER><![CDATA[열쇠]]></OTHER>
+		<OTHER><![CDATA[카메라]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[불안해하는]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 뭐가 필요해요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~절도 사건 신고를 받았습니다. 소지품 검사가 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 말도 안 돼요! 증거도 없고 아무것도 대답하지 않을 거예요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 법 집행이 임무입니다. 추적 장치에 따르면 {0}이 여기 있고 지금 당신이 소지 중입니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 거짓말이에요! 요즘 기술이 항상 틀리잖아요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 뭐가 필요해요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~{0}을 소지하고 있는 것으로 파악됩니다. 검사가 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="resignedly"><![CDATA[~r~용의자:~w~ 잡혔네요, 자수합니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 손 올리세요. 지금 구금하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~r~용의자~w~ 위치 추적 중. ~y~수색 구역이 주기적으로 업데이트~w~될 것임.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 경관님, 도와주세요, 강도를 당했어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 용의자에 대해 말씀해 주시겠습니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~y~피해자:~w~ 잘 모르겠지만, 제 {0}에 GPS 추적기가 있어요. 이번엔 도움이 되겠죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 좋습니다. Dispatch에 전달해서 추적할 수 있도록 하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~피해자: ~w~네, 꼭 찾아주셨으면 해요. 중요한 물건입니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 최선을 다하겠습니다. 지금 추적하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

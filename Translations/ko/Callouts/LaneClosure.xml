@@ -1,0 +1,27 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[차선 폐쇄]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~견인 트럭 기사~w~가 고장 차량 안전 처리를 위해 ~o~차선 폐쇄~w~ 요청함.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~해당 차선 폐쇄~w~ 후 ~o~견인 트럭 기사~w~와 대화 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~차선 폐쇄 유지~w~ 중 교통 통제 요망. ~o~견인 트럭 기사~w~가 차량 수리 중.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~차량 수리 성공~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[수리 불가. 차량 ~o~견인~w~ 예정.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="pleased"><![CDATA[~y~정비사:~w~ 경관님, 수리를 다 끝냈어요. 곧 출발할 거예요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="disappointed"><![CDATA[~y~정비사:~w~ 죄송한데 경관님, 고칠 수가 없어요! 차량을 연결할 수 있게 제 트럭 뒤쪽 공간이 필요해요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 무슨 도움이 필요하세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정비사:~w~ 경관님, 안녕하세요. 이 고장 차량을 안전하게 처리할 수 있도록 차선을 폐쇄해 주셔야 해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요. 행운을 빌어요! 필요한 게 있으면 알려주세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

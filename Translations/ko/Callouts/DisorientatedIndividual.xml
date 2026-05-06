@@ -1,0 +1,51 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[혼란 상태 인물]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~카메라 운영 요원~w~이 한 인물을 ~y~수상히 여겨~w~ 확인 요청함.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[강한 알코올 냄새가 나는 것으로 보임]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자: ~w~으아아아, 꺼져이이이이이이이이]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~안녕하세요, 괜찮으세요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~안녕하세요! 잠깐 얘기 좀 할 수 있을까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자: ~w~싫어어어어어, 하기 싫다고오오.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~그러시면 안 되는데요, 신분증 가지고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자: ~w~흠...그건 됐어어어요...]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자:~w~ 라라라라라! 이제 안녕히 계세요 경관님!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자:~w~ 안녕하세요, 와주셔서 정말 다행이에요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~ 안녕하세요, 무슨 일이 있으세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자:~w~ 길을 잃었어요, 이 지역이 처음이거든요. 어떻게 집에 가야 할지 모르겠어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이런, 데리러 올 수 있는 분이 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~용의자:~w~ 네, 있어요! 지금 바로 문자 드릴게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~ 좋아요. 오실 수 없으면 다른 방법을 찾아볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 어떻게 된 건가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자:~w~ 아무것도 아니에요오오...그냥 파티가 즐거웠어어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그래서 지금 그냥 돌아다니고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자:~w~ 네에에에, 밖이 너무 좋아아아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이름이 어떻게 되세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자:~w~ 음... 이름은요... 벤 도버예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 장난하지 말고, 진짜 이름 알려주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="drunk"><![CDATA[~r~용의자:~w~ 생각해봐야 해요...아마 {0} 같은데요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신: ~w~안녕하세요, 괜찮으세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 네, 괜찮아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이 지역에서 혼란 상태 인물이 있다는 신고가 들어와서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 그게 범죄인가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 아니요, 괜찮으신지 확인하려고 온 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자:~w~ 괜찮아요, 그냥 저 혼자 좀 내버려 두시면 좋겠어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그러시겠다면, 좋은 하루 보내세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>

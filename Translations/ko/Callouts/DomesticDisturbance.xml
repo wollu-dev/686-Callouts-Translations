@@ -1,0 +1,233 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[가정 폭력]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[세부 사항 불명의 ~o~가정 내 소란~w~ 신고 접수됨. 현장에 출동해서 ~y~상황 파악~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[상황 해결 요망. 목격자가 있다면 ~y~목격자 수색~w~ 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기서 무슨 일이에요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 얘가 그냥 안 놔주려고 해요! 사소한 것들 다 꼬투리 잡고, 정말 지겨워요!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 얘가 그냥 안 놔주려고 해요! 사소한 것들 다 꼬투리 잡고, 정말 지겨워요!]]></DIALOGUE> // ped 1
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 반대편 얘기도 들어봅시다.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 반대편 얘기도 들어봅시다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 저는 그냥 존중받고 싶은 거예요! 저를 없는 사람 취급하니까 미칠 것 같아요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 저는 그냥 존중받고 싶은 거예요! 저를 없는 사람 취급하니까 미칠 것 같아요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 무시한 게 아니야! 그냥 모든 게 위기라고 생각하지 않는 거야, 근데 넌 그렇게 행동하잖아.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 무시한 게 아니야! 그냥 모든 게 위기라고 생각하지 않는 거야, 근데 넌 그렇게 행동하잖아.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~당신:~w~ 서로 이야기를 들으려 하지 않는 것 같네요. 왜 계속 이러는 거예요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 얘는 항상 제대로 얘기도 못 해보게 미리 결론 내려버려요. 좀 공간이 필요해요!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 얘는 항상 제대로 얘기도 못 해보게 미리 결론 내려버려요. 좀 공간이 필요해요!]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 싸우고 싶은 게 아니에요! 그냥 이해받고 싶은데, 말도 꺼내기 전에 차단해버리잖아요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 싸우고 싶은 게 아니에요! 그냥 이해받고 싶은데, 말도 꺼내기 전에 차단해버리잖아요.]]></DIALOGUE> // ped 2
+			<DIALOGUE><![CDATA[~b~당신:~w~ 좋아요, 잠깐 진정하세요. 중요한 건 서로 소통하고 귀 기울이는 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~남성:~w~ 알아요. 그냥 대부분 벽에 대고 말하는 것 같아서 답답한 거예요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~여성:~w~ 알아요. 그냥 대부분 벽에 대고 말하는 것 같아서 답답한 거예요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~남성:~w~ 듣고는 있어, 제대로 듣지 않을 뿐이지.]]></DIALOGUE> // ped 1
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~여성:~w~ 듣고는 있어, 제대로 듣지 않을 뿐이지.]]></DIALOGUE> // ped 1
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 이성적으로 해결할 수 있을 것 같아요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic" TARGET="M"><![CDATA[~y~남성:~w~ 네 경관님, 죄송해요... 흥분해서 그랬어요.]]></DIALOGUE> // ped 2
+			<DIALOGUE EMOTION="apologetic" TARGET="F"><![CDATA[~y~여성:~w~ 네 경관님, 죄송해요... 흥분해서 그랬어요.]]></DIALOGUE> // ped 2
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이봐요! 여기서 무슨 일이에요?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 진짜 지쳤어요! 얘는 입을 절대 안 다물어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 진짜 지쳤어요! 얘는 입을 절대 안 다물어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 제발! 뭔가 안 풀리면 어린애처럼 난리 치는 건 당신이잖아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 제발! 뭔가 안 풀리면 어린애처럼 난리 치는 건 당신이잖아!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 진정하세요! 지금 이러시면 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 얘가 안 들어요! 계속 밀어붙이고 또 밀어붙이고!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 얘가 안 들어요! 계속 밀어붙이고 또 밀어붙이고!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 왜냐면 당신은 아무것도 진지하게 안 받아들이잖아! 내 얼굴에 대고 비웃잖아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 왜냐면 당신은 아무것도 진지하게 안 받아들이잖아! 내 얼굴에 대고 비웃잖아!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그만! 물러서세요, 지금 당장!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 물러서라고요?! 그럼 얘가 입 좀 다물었으면!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 물러서라고요?! 그럼 얘가 입 좀 다물었으면!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 덤벼? 다시 한번 말해봐!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 덤벼? 다시 한번 말해봐!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 이제 주먹이 날아갈 거야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 이제 주먹이 날아갈 거야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 저한테 달려들고 있어요! 도와주세요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 저한테 달려들고 있어요! 도와주세요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 뭐든 마음대로 해도 된다고 생각해? 당해 봐!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 뭐든 마음대로 해도 된다고 생각해? 당해 봐!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 주먹이 약하네! 진짜 주먹이 뭔지 보여줄게!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 주먹이 약하네! 진짜 주먹이 뭔지 보여줄게!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무슨 일이에요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 잘 오셨어요! 얘가 저를 때렸어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 잘 오셨어요! 얘가 저를 때렸어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 거짓말! 손끝 하나 안 댔어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 거짓말! 손끝 하나 안 댔어!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 두 분 다 진정하세요. 정확히 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 두 분 다 진정하세요. 정확히 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 우리가 말다툼을 했는데, 갑자기 얘가 폭발했어요! 저를 잡고 밀었어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 우리가 말다툼을 했는데, 갑자기 얘가 폭발했어요! 저를 잡고 밀었어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 안 건드렸어! 화나서 지어낸 거잖아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 안 건드렸어! 화나서 지어낸 거잖아!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 목소리 좀 낮추세요. 손댄 적 있어요, 없어요?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 목소리 좀 낮추세요. 손댄 적 있어요, 없어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 아니요! 맹세해요! 오히려 얘가 뭔가를 던졌어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 아니요! 맹세해요! 오히려 얘가 뭔가를 던졌어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 얘가 얼굴에 대고 소리를 질러서 그랬어요! 무서웠단 말이에요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 얘가 얼굴에 대고 소리를 질러서 그랬어요! 무서웠단 말이에요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 그만해요! 두 분 다 지금 계신 자리에 있어 주세요. 사실을 파악할게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근에서 소란 신고를 받아 조사 중이에요. 이상한 점을 발견하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~목격자:~w~ 왜요? 저쪽 골목 커플 때문인가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 구체적인 사항은 말씀드릴 수 없지만, 최근에 이상한 점을 목격하셨는지 여쭤보는 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~목격자:~w~ 엮이고 싶지 않아요. 그냥 한 가지만 말하자면, 그 집 남편은 정말 나쁜 사람이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 특별히 목격하신 게 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~목격자:~w~ 소문에는 결혼 생활이 엉망이라고 하던데요. 더는 모르겠어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 정보 감사합니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근에서 소란 신고를 받아 조사 중이에요. 이상한 점을 발견하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtatious"><![CDATA[~y~목격자:~w~ 이상한 건 경관님이 너무 매력적이라는 것뿐이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 감사하지만, 지금은 수사에 도움이 될 만한 소란 정보가 필요해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="flirtatious"><![CDATA[~y~목격자:~w~ 그렇다면 도움이 안 되겠네요. 퇴근 후에 연락주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 감사합니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무슨 일인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 룸메이트가 통제 불능이에요. 갑자기 저한테 폭발했어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 룸메이트가 통제 불능이에요. 갑자기 저한테 폭발했어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 무슨 소리예요?! 당신이 제 물건을 다 버렸잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 무슨 소리예요?! 당신이 제 물건을 다 버렸잖아요!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 양쪽 이야기를 다 들어볼게요. 무슨 일이 있었나요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 양쪽 이야기를 다 들어볼게요. 무슨 일이 있었나요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 제 룸메이트는 물건을 엄청 쌓아두는 사람이에요. 우리 집에 쓰레기가 가득해요! 정말 불공평해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 제 룸메이트는 물건을 엄청 쌓아두는 사람이에요. 우리 집에 쓰레기가 가득해요! 정말 불공평해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad" TARGET="M"><![CDATA[~y~남성:~w~ 그건 소중한 물건들이에요! 그냥 버리면 어떡해요! 말도 안 돼요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad" TARGET="F"><![CDATA[~y~여성:~w~ 그건 소중한 물건들이에요! 그냥 버리면 어떡해요! 말도 안 돼요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지금 그 물건들은 어디 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~남성:~w~ 쓰레기차가 가져가서 다 없어졌어요! 절도로 고발하고 싶어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~여성:~w~ 쓰레기차가 가져가서 다 없어졌어요! 절도로 고발하고 싶어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="condescending" TARGET="M"><![CDATA[~y~남성:~w~ 말도 안 되는 소리 하지 마요. 경관님도 알잖아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="condescending" TARGET="F"><![CDATA[~y~여성:~w~ 말도 안 되는 소리 하지 마요. 경관님도 알잖아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 진정하세요. 사실을 파악할게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근 주택에서 발생한 사건을 조사 중이에요. 최근에 이상한 점을 보셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="curious"><![CDATA[~y~목격자:~w~ 아니요, 못 봤어요. 그런데 저쪽 두 룸메이트는 항상 싸우더라고요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 누군가가 상대방 물건을 쓰레기통에 버렸다고 하던데요. 그런 장면을 보셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~목격자:~w~ 그러고 보니, 봤어요. 둘 중 하나가 봉투를 잔뜩 들고 가더라고요, 누군지는 기억이 안 나지만요.]]></DIALOGUE> // the gender of the suspect is unknown, for it could be the man or woman. The bystander does not remember.
+			<DIALOGUE><![CDATA[~b~당신:~w~ 도움이 됐어요. 전에도 그런 걸 본 적 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~목격자:~w~ 쓰레기를 저렇게 많이 버리는 건 처음이에요. 예전에도 조용히 해달라고 한 적이 있긴 한데, 둘이 자주 싸우더라고요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 도움 주셔서 감사합니다. 조심히 가세요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근 주택에서 발생한 사건을 조사 중이에요. 최근에 이상한 점을 보셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~목격자:~w~ 죄송한데, 이상한 건 못 봤어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 누군가가 상대방 물건을 쓰레기통에 버렸다고 하던데요. 그런 장면을 보셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="honest"><![CDATA[~y~목격자:~w~그런 건 못 봤어요. 해외여행 다녀와서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요. 인근에 사는 룸메이트들에 대해 아시는 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="unsettled"><![CDATA[~y~목격자:~w~ 아니요, 솔직히 가까이 가지 않으려고 해요. 좀 이상하거든요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 정보 감사합니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 물러서세요. 무슨 일이에요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 아무 이유도 없이 저를 내쫓으려 해요! 저 여기 살아요! 이럴 수 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 아무 이유도 없이 저를 내쫓으려 해요! 저 여기 살아요! 이럴 수 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 아무 이유가 없다고요?! 거짓말, 변명에 지쳤어요, 나가요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 아무 이유가 없다고요?! 거짓말, 변명에 지쳤어요, 나가요!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 잠깐만요. 여기 계실 법적 권리가 있으신가요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 잠깐만요. 여기 계실 법적 권리가 있으신가요?]]></DIALOGUE> // we are referring to the other ped of the opposite gender.
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 월세 내고 있어요! 1년 넘게 살았어요! 낯선 사람처럼 쫓아낼 수는 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 월세 내고 있어요! 1년 넘게 살았어요! 낯선 사람처럼 쫓아낼 수는 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 상관없어요! 나가줬으면 해요! 더는 못 참겠어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 상관없어요! 나가줬으면 해요! 더는 못 참겠어요!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 소리 지른다고 해결이 안 돼요. 퇴거 절차를 밟으셨나요?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 소리 지른다고 해결이 안 돼요. 퇴거 절차를 밟으셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="M"><![CDATA[~y~남성:~w~ 그럴 필요가 없어야 하잖아요! 안 나가겠다고 하는데 어쩌라고요?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated" TARGET="F"><![CDATA[~y~여성:~w~ 그럴 필요가 없어야 하잖아요! 안 나가겠다고 하는데 어쩌라고요?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 저를 쓰레기 취급하지 않았다면 이렇게 되지 않았겠죠!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 저를 쓰레기 취급하지 않았다면 이렇게 되지 않았겠죠!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 양쪽 얘기를 다 들었어요. 이제 올바른 방법으로 처리할 거예요. 점잖게 행동해 주세요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근에서 소란 신고를 받아 조사 중이에요. 혹시 아시는 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~목격자:~w~ 아니요, 죄송해요. 저와 상관없는 일이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 감사합니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인근에서 소란 신고를 받아 조사 중이에요. 혹시 아시는 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~목격자:~w~ 왜요, 무슨 일이에요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 몇 집 아래에서 말다툼이 있었다고 하는데요, 그 커플에 대해 아시는 게 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~목격자:~w~그건 좀 지나친 질문 아닌가요? 저는 그 집에 대해 아무것도 몰라요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 감사합니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 정말 지긋지긋해! 당신은 절대 안 들어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 정말 지긋지긋해! 당신은 절대 안 들어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 내가?! 먼저 시작한 건 당신이잖아! 저리 가!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 내가?! 먼저 시작한 건 당신이잖아! 저리 가!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 또 밀 거야? 해봐! 어디 한번 해봐!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 또 밀 거야? 해봐! 어디 한번 해봐!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 더는 못 참아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 더는 못 참아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 그래! 끝장내자!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 그래! 끝장내자!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 나한테 이러면 안 되지!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 나한테 이러면 안 되지!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 꺼져! 이제 진짜 지쳤어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 꺼져! 이제 진짜 지쳤어!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[인질과의 대화가 진행되는 동안 ~g~15미터~w~ 이상의 ~g~안전 거리~w~ 유지 요망. ~y~어떤 상황에도 대비~w~ 바람.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~너무 가까이 접근했음~w~!]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 인질을 붙잡고 있다면, 지금 당장 풀어줄 것을 강력히 권고합니다!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 물러서! 쏠 거야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 물러서! 쏠 거야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate" TARGET="M"><![CDATA[~y~남성:~w~ 제발! 그냥 보내줘요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate" TARGET="F"><![CDATA[~y~여성:~w~ 제발! 그냥 보내줘요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 닥쳐! 다 네 탓이야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 닥쳐! 다 네 탓이야!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 아무도 움직이지 않을 거예요. 하지만 이건 방법이 아니에요. 대화해 봐요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~y~남성:~w~ 어차피 죽어도 싸! 죽어버려!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~y~여성:~w~ 어차피 죽어도 싸! 죽어버려!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="terrified" TARGET="M"><![CDATA[~y~남성:~w~ 더는 못 버티겠어요 경관님! 저를 체포해 주세요! 차라리 감옥이 나아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="terrified" TARGET="F"><![CDATA[~y~여성:~w~ 더는 못 버티겠어요 경관님! 저를 체포해 주세요! 차라리 감옥이 나아요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared" TARGET="M"><![CDATA[~y~남성:~w~ 알았어, 안 죽일게! 근데 감옥은 가기 싫어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared" TARGET="F"><![CDATA[~y~여성:~w~ 알았어, 안 죽일게! 근데 감옥은 가기 싫어!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이봐요! 여기서 무슨 일이에요?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 진짜 지쳤어요! 얘는 입을 절대 안 다물어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 진짜 지쳤어요! 얘는 입을 절대 안 다물어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~y~남성:~w~ 제발! 뭔가 안 풀리면 어린애처럼 난리 치는 건 당신이잖아!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="F"><![CDATA[~y~여성:~w~ 제발! 뭔가 안 풀리면 어린애처럼 난리 치는 건 당신이잖아!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 진정하세요! 지금 이러시면 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="M"><![CDATA[~y~남성:~w~ 경관님, 지금 여기서 할 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="F"><![CDATA[~y~여성:~w~ 경관님, 지금 여기서 할 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="M"><![CDATA[~y~남성:~w~ 미안해요 경관님, 하지만 함정에 빠지셨어요. 가정 폭력은 없어요. 그냥 기습이에요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="threatening" TARGET="F"><![CDATA[~y~여성:~w~ 미안해요 경관님, 하지만 함정에 빠지셨어요. 가정 폭력은 없어요. 그냥 기습이에요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>
+

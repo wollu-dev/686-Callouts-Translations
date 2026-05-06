@@ -1,0 +1,26 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[골목 강도]]></CALLOUTMESSAGE>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[{0} 인근에서 ~y~강도 사건 발생~w~. 현장 조사 요망.]]></FURTHERINFORMATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[{0} 인근에서 ~y~강도 사건 발생~w~. 현장 조사 요망.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[장물]]></OTHER>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[{0} 인근에서 ~y~강도 사건 발생~w~. 피해자 ~r~총기 위협 상태~w~ 신고됨. 현장 조사 요망.]]></FURTHERINFORMATION>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[{0} 인근에서 강도 2명 가담 ~y~강도 사건 발생~w~. 현장 조사 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 장물 ~g~회수~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~증거물~w~로 ~y~{0}~w~ 장물 회수됨.]]></NOTIFICATION>
+		<OTHER><![CDATA[가방]]></OTHER>
+		<OTHER><![CDATA[쇼핑백]]></OTHER>
+		<OTHER><![CDATA[피자]]></OTHER>
+		<OTHER><![CDATA[노트북]]></OTHER>
+		<OTHER><![CDATA[소포]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>
+<!-- <![CDATA[]]> -->

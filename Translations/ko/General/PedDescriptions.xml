@@ -1,0 +1,14 @@
+<PEDDESCRIPTIONS>
+	<PREFIX><![CDATA[용의자는 ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[용의자는 ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<PREFIX><![CDATA[용의자는 ~y~]]></PREFIX> // If needed, you can add "TARGET = M/F" here.
+	<DESCRIPTION PREFIX = "0" ><![CDATA[정장~w~을 착용 중.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[파란색 티셔츠~w~를 착용한 달리기 선수.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[파란색 체크 셔츠~w~를 착용 중.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[가죽 코트~w~를 착용 중.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "2"><![CDATA[노동자~w~, ~y~흰색 티셔츠~w~를 착용 중.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "1"><![CDATA[멜빵~w~을 착용 중.]]></DESCRIPTION> // FEMALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[파란색 셔츠~w~에 ~y~파란색 반바지~w~를 착용 중. 우편 배달부로 추정.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[큰 빨간색 셔츠와 모자~w~에 ~y~남색 바지~w~를 착용 중.]]></DESCRIPTION> // MALE ped.
+	<DESCRIPTION PREFIX = "0"><![CDATA[연한 파란색 블레이저와 청바지 스커트~w~에 ~y~빨간색 속셔츠~w~를 착용 중.]]></DESCRIPTION> // FEMALE ped.
+</PEDDESCRIPTIONS>

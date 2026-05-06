@@ -1,0 +1,59 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[경찰서 사진 촬영]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[한 인물이 ~y~경찰서를 촬영~w~ 중임. 대화해서 이유 파악 요망.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 무슨 일이죠?]]></DIALOGUE>
+			<DIALOGUE EMOTION="mysterious"><![CDATA[~r~용의자:~w~ 아무것도 아니에요. 아무것도요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 카메라 내려놓으세요, 얘기 좀 하고 싶은데-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 왜 여기 오셨어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자:~w~ 불법적인 건 하나도 없어요. 저 좀 내버려 두세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그냥 무슨 일인지 이해하고 싶어서 말을 걸어보는 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자:~w~ 저는 그냥 완전히 합법적인 일을 하고 있어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그냥 얘기 좀 나누고 싶어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자:~w~ 공공장소에서 사진 찍을 권리를 침해하려 하지 마세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 경찰서 사진을 찍는 이유가 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 제 SNS 채널에 올리려고요, 괜찮은가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 합법적이기는 한데, 그렇게 오래 하시는 건 좀 이상해 보이네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자:~w~ 알겠어요, 다 찍었으니 이제 갈게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 네, 감사해요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	<NOTIFICATION><![CDATA[전화번호 수신됨. 초기 조사 시작됨. 감사함.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 왜 경찰서 사진을 찍고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~용의자:~w~ 정말 알고 싶으세요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 네, 말씀해 주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~용의자:~w~ 이렇게 말하면 멍청하게 들릴 것 같은데, Jeff라는 사람이 문자로 찍어달라고 했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~용의자:~w~ 네, 돌이켜보면 좀 수상한 일을 한 것 같아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 우리 둘 다 같은 생각을 하는 것 같네요. 그 사람 번호 주실 수 있어요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이제 집에 가시고, 앞으로 누구와 연락하는지 좀 더 신중하게 생각해 보세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 네, 알겠어요. 번거롭게 해서 죄송해요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+		<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 왜 경찰서 사진을 찍고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="excited"><![CDATA[~r~용의자:~w~ 안녕하세요 경관님! 저 응급 서비스의 열렬한 팬이에요. 경찰서 사진을 찍고 있었는데요, 괜찮은가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요, 일종의 취미 같은 건가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="excited"><![CDATA[~r~용의자:~w~ 맞아요! 경찰관이 되고 싶었는데, 반대쪽 경찰서 앞에 있는 걸 보면 잘 안 됐다는 걸 알겠죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 흥미롭네요, 무슨 일인지 확인하려고 왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 시간을 낭비하게 해서 죄송한데, 어쨌든 사진 다 찍었어요. 제 생각엔 꽤 잘 나온 것 같아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 전혀요, 남은 하루도 좋은 하루 보내세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~용의자:~w~ 그럼 이제 가볼게요. 언제 또 마주칠 수 있겠죠.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

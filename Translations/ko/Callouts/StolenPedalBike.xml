@@ -1,0 +1,50 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[자전거 도난]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~도난된 자전거를 발견~w~했음. 탑승자를 검문 요망.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 잠깐 몇 가지 여쭤봐도 될까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~용의자:~w~ 네, 하세요. 근데 뒤쪽 차 좀 조심하세요. 조심해요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 저 자전거에 대해 얘기 좀 할 수 있을까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 왜요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 오늘 도난 신고가 된 자전거입니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자:~w~ 아, 하하. 죄송해요. 제가 신고한 거예요! 잃어버린 줄 알았는데, 찾았어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요, 이 자전거가 본인 명의로 등록됐나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="proud"><![CDATA[~r~용의자:~w~ 네, 맞아요. 필요한 조회 다 해보세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[불안해하는]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 저 자전거 때문에 말씀드리려고 왔습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 어디 가는 길인데요. 타이어에 문제 있는 건 아닌데, 무슨 일이에요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 어제 도난 신고가 된 자전거입니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 아. 음, 그거 이상하네요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 혹시 이유를 아시겠습니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~용의자:~w~ 음...네! 신고한 걸 완전히 잊어버렸어요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 저 자전거에 대해 잠깐 얘기할 수 있을까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 알겠어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 당사 기록에 최근 도난 신고된 자전거입니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~용의자:~w~ ...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 죄송한데, 뭐라고 하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~r~용의자:~w~ 할 말 없습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<OUTCOME5>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 아아아아! 또 당신이에요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME5>
+</CALLOUT>

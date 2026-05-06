@@ -1,0 +1,80 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[지하철 소란]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[목격자가 ~y~2인이 연루된 소란~w~에 대해 지원 요청함.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~p~지하철 입구를 찾아~w~ ~y~소란을 일으킨 2인~w~을 추적 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~y~피해자:~w~ 경관님, 도와주세요, 미친 사람한테 쫓기고 있어요!]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~상황 변화:~w~ 지하철 내 용의자가 ~y~의식 불명~w~ 상태임. 각별히 주의 요망.]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 이건 경고 사격이야, 물러서!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 아아아! 받아라!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[격앙된]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[신원 확인 중. 대기 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[신원 조회 결과 ~g~이상 없음~w~. 특이 사항 없음.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 진정하세요! 잠깐 진정하시죠.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry" TARGET="M"><![CDATA[~r~용의자 1:~w~ 경관님! 이 사람이 얼마나 나쁜 인간인지 모르시겠죠!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~r~용의자 1:~w~ 경관님! 이 사람이 얼마나 나쁜 인간인지 모르시겠죠!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요... 그래도 공격적으로 소리 지르지 말고 서서 얘기해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자 2:~w~ 이 사람이랑 살면서 겪은 지옥 같은 시간을 모르시죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 제발, 진정해 봅시다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자 2:~w~ 알겠어요, 알겠어요! 그럼 진정하죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무슨 문제인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자 1:~w~ 이 인간이 제 삶을 망쳤어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자 2:~w~ 그런 적 없어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 행동이 다소 걱정됩니다. 진정하실 수 있겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자 1:~w~ 에휴. 좀 지나쳤네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자 2:~w~ 저도요, 저 인간 때문에 소란 피워서 죄송합니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 신분증 주시겠습니까? 간단히 확인만 하겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 두 분 다 가셔도 됩니다. 협조해 주셔서 감사합니다. 앞으로는 좀 더 조심해 주세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<NOTIFICATION><![CDATA[~y~Y~w~ 키를 눌러 행인을 조용한 곳으로 이동 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~성공~w~. 행인이 따라오고 있음.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~용의자~w~에게 복귀 요망.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 함께 이동 중이신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 네, 맞아요. 뭐가 필요해요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이 자리에서 소란 신고가 들어왔어요. 몇 가지 확인이 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 불필요한 것 같은데, 알겠어요.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 저를 따라와 주시겠어요? 개인적으로 말씀 드릴 게 있습니다.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 저를 따라와 주시겠어요? 개인적으로 말씀 드릴 게 있습니다.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 감사합니다. 다 괜찮으신지 말씀해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 파트너가 강제로 따라오게 하고 있어요! 어디로 가는지 모르겠어요, 늦기 전에 제발 도와주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 제가 더 알아야 할 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 무기를 갖고 있을 수도 있어요, 조심하세요.]]></DIALOGUE>
+			<DIALOGUE/>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 기다려 주셔서 감사합니다. 소지품 중 갖고 계시면 안 될 게 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 아무것도 없습니다 경관님.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 확실한가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 정직이 최선이라고 하잖아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요. 지금 임의 동행 요청입니다. 손이 보이게 해주세요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="resignedly"><![CDATA[~y~피해자:~w~ 할 일을 다 했어요. 체포해 주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~r~용의자:~w~ 어떻게 저한테 달려들었는지 보셨잖아요 경관님! 제 잘못이 아니에요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~목격자:~w~ 경관님, 와주셔서 감사해요! 제가 아는 걸 말씀드릴게요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~목격자:~w~ 제 볼일 보고 있었는데, 두 사람이 지나가더니 심하게 싸우더라고요! 당장 폭발할 것 같았어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 어느 방향으로 갔나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~y~목격자:~w~ 확실하지는 않지만, 지하철역으로 들어간 것 같아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 거기서 찾아봐야겠네요. 감사합니다!]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleased"><![CDATA[~y~목격자:~w~ 도움이 됐으면 좋겠어요!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

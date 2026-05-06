@@ -1,0 +1,45 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[시위]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[도로를 막으며 ~r~시위 발생~w~. Dispatch의 추가 지시 대기 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[시위가 ~r~폭력 사태로 번짐.~n~~y~신속하게 출동~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[시위가 끝날 때까지 ~y~감시~w~ 요망. 원활하게 진행되도록 유지 바람.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[시위가 ~g~확대 없이~w~ 종료됨.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[시위 진행 중. ~o~시위 대표~w~와 대화 요망.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[시위대가 현재 ~g~현장을 이탈~w~ 중.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~목격자:~w~ 경관님, 말도 안 돼요! 교통이 흘러야 해요!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~목격자:~w~ 도로를 막고 있잖아요! 치워버려요! 위험해요.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~목격자:~w~ 경관님, 치우라고 했잖아요!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~목격자:~w~ 도로 막는 시위대는 꺼지라고 해요!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~용의자: ~w~경관님도 우리 대열에 합류하실 건가요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~이 시위가 무엇에 관한 건가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="passionate"><![CDATA[~r~용의자: ~w~기후 변화가 우리나라를 망치고 있어요. 지금 당장 정부가 행동해야 해요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~죄송한데, 이동해 주셔야 해요. 도로를 막으며 시위를 하려면 사전 허가가 필요해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 왜요? 좋은 취지로 시위하는 거잖아요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~이 시위는 허가를 받지 않았어요. 도로를 막을 수 없어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~r~용의자:~w~ 다른 사람들한테 말했었는데... 안 들었어요. 이제 가야 한다고 말할게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~감사해요. 교통 흐름이 재개될 수 있도록 짐 정리해 주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="disappointed"><![CDATA[~r~용의자:~w~ 다들, 시위 종료예요. 이제 가요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="optimistic"><![CDATA[~r~용의자: ~w~우리 시위를 지지하러 오셨나요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~왜 시위를 하고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~식품 가격이 너무 비싸서 지쳤어요! 굶어 죽겠어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~이 시위는 여기서 할 수 없어요, 공공 안전을 위협하고 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 이동할 생각 없어요 경관님. 정당한 이유가 있어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~이동해야 해요, 불법으로 시위를 하고 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 경관님, 안 이동해요! 다른 사람 귀찮게 하세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>

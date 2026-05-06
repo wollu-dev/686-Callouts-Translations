@@ -1,0 +1,315 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[교통 검문 지원]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~b~지원 경찰관~w~이 차량을 검문 중이며 지원 요청함.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자: ~w~아니요, 무슨 문제가 있나요? 잘 운전했다고 생각했는데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~차선 이탈을 반복하셨어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~아, 몰랐어요. 그렇게 심했나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~네, 잠시 뒤따르면서 확인했어요. 차 제어에 어려움이 있어 보였어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~죄송합니다 경관님, 운전에 자신이 없어서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~면허 취득한 지 오래됐나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~네, 운전을 자주 안 해서요. 죄송합니다. 실력을 키우려고 노력 중이에요. 스트레스를 받아서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~정말 조심하셔야 해요. 항상 차선을 지켜야 합니다. 다른 운전자들도 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~경관: ~w~긴장되시면 천천히 하시고 차선 중앙을 유지하는 데 집중하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~이번엔 경고로 마무리하겠습니다. 하지만 다시는 이런 식으로 운전하지 마세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~감사합니다 경관님! 다시 한번 기회를 주셔서요. 좋은 하루 보내세요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자: ~w~속도를 위반했나요, 경관님?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~제한 속도를 약간 초과하셨어요. 주의하셔야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~용의자: ~w~아, 몰랐어요. 얼마나 초과했나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~많지는 않지만, 눈에 띄었어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~죄송합니다 경관님, 속도 표지를 놓친 것 같아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~다시는 이러시면 안 됩니다. 유효한 면허증이 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~네 경관님. 처음 정지당한 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~알겠어요, 면허증 확인하고 간단히 조회하겠습니다. 잠시 기다리세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~면허증 이상 없으니 가셔도 됩니다. 하지만 경고로 남겨두겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~죄송해요, 더 조심하겠습니다!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자: ~w~아니요, 뭔가 잘못했나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~브레이크 등이 나갔어요. 특히 야간에 위험합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~r~용의자: ~w~이런, 몰랐어요! 얼마나 심한가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~완전히 꺼진 상태예요. 제동 시 전혀 빛이 안 나요. 최근에 정비하신 적 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~솔직히, 오랫동안 못 했어요. 점검받으려 했는데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~가능한 빨리 수리하시길 권장합니다. 다른 운전자들이 제동 시 확인해야 하니까요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~신뢰할 수 있는 정비소 인근에 있으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~그냥 찾아봐야 할 것 같아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~알겠어요. 딱지는 끊지 않겠지만, 경고로 남겨둡니다. 브레이크 등 빨리 고치세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자: ~w~네, 경관님. 알려주셔서 감사해요. 바로 처리하겠습니다!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자: ~w~음... 아니요? 괜찮은가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~방금 차선 변경 시 깜빡이를 켜지 않으셨어요. 특히 오늘처럼 교통량이 많을 때 위험합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~아, 몰랐어요! 합류에 집중하다 보니...]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~이해하지만, 다른 운전자들이 당신의 행동을 알아야 해요. 모두의 안전을 위한 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자: ~w~네, 알겠어요. 앞으로는 꼭 깜빡이를 켜겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~좋아요. 방향지시등 켜는 데 1초밖에 안 걸리지만, 사고를 예방할 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="concerned"><![CDATA[~b~경관: ~w~교통량이 많은 곳에서 자주 운전하세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자: ~w~보통은 아닌데, 오늘은 느린 차들을 피하려다 보니...]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~알겠어요. 오늘은 딱지를 끊지 않겠습니다. 앞으로는 방향지시등에 더 주의하시길 바랍니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자: ~w~물론이죠! 경고로 넘어가 주셔서 감사합니다, 경관님.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~용의자: ~w~음... 속도를 위반했나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 방금 정지 표시를 지나치셨어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~이런... 정말 죄송해요. 못 봤나봐요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~중요한 거예요. 정지선에서 통과하는 건 위험할 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~이해해요. 더 주의했어야 했는데.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~위반에 대해 딱지를 발부해야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~용의자: ~w~알겠어요. 다음엔 더 조심하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~안전하게 운전하시고, 모든 표지에서 완전히 정지하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~용의자: ~w~그렇게 하겠습니다. 감사합니다, 경관님.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~모르겠는데요, 속도 위반인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 번호판 조회했더니 차량 등록이 만료됐네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~그게 무슨 말이에요? 갱신했다고 생각했는데.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~시스템에는 지난달에 만료된 것으로 나와요. 갱신 안내문 받으셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~음... 아마요? 우편물이 너무 많아서 놓쳤나봐요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아쉽지만, 등록 만료로 딱지를 발부해야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~그거 좋네요... 딱 필요한 것만.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~가능한 빨리 갱신해야 합니다. 안내는 딱지에 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~알겠어요. 처리하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~모르겠는데요, 그냥 말씀하시면 되잖아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~운전 중 휴대폰을 사용하는 것을 봤어요. 심각한 안전 문제예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~설마! 그냥 잠깐 GPS 확인했는데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~상관없어요. 법은 명확합니다. 운전 중 핸드헬드 기기는 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~진심이에요? 더 심각한 일이 얼마나 많은데, 이걸 신경 쓰고 있어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~방심 운전이 사고로 이어집니다. 딱지를 발부하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~믿을 수가 없네요. 그냥 돈 뜯는 거잖아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~이의가 있으시면 법정에서 딱지에 이의를 제기하실 수 있습니다. 안전하게 운전하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~네, 됐어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~용의자: ~w~음, 모르겠어요... 속도 위반인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 방금 차선 변경 시 깜빡이를 안 켜셨어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자: ~w~아, 몰랐어요. 죄송합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~중요한 거예요. 깜빡이를 켜는 게 모두를 안전하게 해줍니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~r~용의자: ~w~알아요, 다음엔 더 조심하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~방향지시등 미점등으로 딱지를 발부하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="remorseful"><![CDATA[~r~용의자: ~w~이해해요. 앞으로는 꼭 켜겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~온라인으로 납부하시고, 앞으로 방향지시등에 더 주의하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~r~용의자: ~w~감사합니다, 경관님. 더 주의하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자: ~w~모르겠는데요. 너무 느리게 운전했나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 앞 차를 너무 바짝 뒤따르고 있었어요. 안전 위협이 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~바짝 뒤따른 게 아니에요! 앞 차가 너무 느린 거예요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~경관: ~w~그럴 수 있지만, 너무 가까이 따라가면 사고가 날 수 있어요. 안전 거리를 유지해야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~용의자: ~w~출근하려다 보니 그냥 신경을 못 썼어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~이해하지만, 본인과 다른 분들의 안전을 위해 끼어들기 위반으로 딱지를 발부해야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자: ~w~좋아요... 딱 필요한 것만.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~앞으로는 안전 거리를 유지하세요. 안전하게 운전하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~네, 알겠어요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자: ~w~잘 모르겠어요, 속도 위반인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 정보 조회 결과 면허가 정지된 상태예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~잠깐만요, 착오예요. 몇 주 전에 해결했는데요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~시스템에는 아직 정지 상태로 나와요. 운전하시면 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~말도 안 돼요. 다른 딱지를 감당할 수 없어요. 출근을 위해 차가 필요해요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~이해하지만, 정지된 면허로 운전하실 수 없습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleading"><![CDATA[~r~용의자: ~w~경관님, 다른 방법이 없을까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~경관: ~w~차량에서 내려 주십시오. 처리하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~싫어요! 행정 착오 때문에 이럴 순 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~경관: ~w~다시 말씀드리지 않겠습니다. 지금 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~용의자: ~w~알겠어요, 됐어요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자: ~w~모르겠는데요, 말씀해 주실 것 같은데.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~브레이크 등이 나갔어요. 고쳐야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~r~용의자: ~w~아... 그것만이에요? 다른 이유인 줄 알았는데.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~b~경관: ~w~차 안에 불법 소지품이 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~네? 아니요! 음... 심각한 건 없어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~무슨 뜻인가요? 솔직하게 말씀해 주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~용의자: ~w~저기, 좌석 밑에 무기가 있는데, 호신용이에요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~이 차량 소유자에겐 총기 면허가 없습니다. 차량에서 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~진짜요?! 별거 아닌 거잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~경관: ~w~차에서 내리세요. 지금.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~용의자: ~w~이것 때문에 감옥 가기 싫어요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~모르겠는데요, 뭔가 이유가 있겠죠.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~차선 이탈이 있었어요. 음주하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="offended"><![CDATA[~r~용의자: ~w~뭐요? 아니요! 말도 안 돼요. 그냥 피곤한 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~충혈된 눈에 술 냄새가 납니다. 음주 테스트를 위해 차량에서 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~이제 저를 음주자 취급해요? 경관님, 그냥 피곤한 거라고요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~경관: ~w~차에서 내리세요. 지금.]]></DIALOGUE>
+			<DIALOGUE EMOTION="agitated"><![CDATA[~r~용의자: ~w~알겠어요, 싫어요. 이렇게는 안 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~경관: ~w~필요 이상으로 어렵게 만들지 마세요. 차량에서 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~용의자: ~w~그렇게는 안 하겠어요, 경관님.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~용의자: ~w~모르겠어요, 경관님. 속도 위반인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~아니요, 차량 등록이 만료됐고, 신분증 확인이 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~등록 비용을 냈어요! 만료될 리가 없어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~확인을 위해 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~용의자: ~w~지금은 이런 거 감당 못 해요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~경관: ~w~진정하시고 차량에서 내려주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="desperate"><![CDATA[~r~용의자: ~w~못 해요. 그냥... 죄송해요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~모르겠는데요, 경관님. 무슨 문제인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~브레이크 등이 오작동하고 있습니다. 신분증 확인이 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~그게 다예요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~경관: ~w~안전 문제입니다. 운전 가능 여부를 확인해야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~용의자: ~w~말도 안 되는 일이에요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~면허증과 등록증을 주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~시간이 없어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~b~경관: ~w~빨리! 순찰 차량으로 돌아가서 저 사람 잡아요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 오늘 왜 세웠는지 아시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="dismissive"><![CDATA[~r~용의자: ~w~모르겠는데요. 뭔가 문제 있나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~이 차량이 인근 사건에서 신고된 차량 설명과 일치합니다. 신분증이 필요합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~황당하네요! 오늘 밤 내내 집에 있었어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~번호판이 해당 지역에서 목격됐어요. 신분증 주십시오.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~이유 없이 괴롭히는 거잖아요! 말도 안 돼요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="commanding"><![CDATA[~b~경관: ~w~차량에서 내려주십시오. 지금.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~용의자: ~w~안 갈 거예요! 권한도 없잖아요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~경관: ~w~마지막 기회입니다. 차량에서 내리시거나, 강제로 하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="enraged"><![CDATA[~r~용의자: ~w~저리 가요! 더 이상은 안 해요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="serious" TARGET="F"><![CDATA[~b~경관: ~w~안녕하세요, 어디 가시는 길인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious" TARGET="M"><![CDATA[~b~경관: ~w~안녕하세요, 어디 가시는 길인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~용의자: ~w~왜 이런 질문을? 그냥 운전하는 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~몇 가지 확인이 필요합니다. 이 차량이 누구 거예요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자: ~w~제 거예요! 그게 무슨 질문이에요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="M"><![CDATA[~b~경관: ~w~흥미롭네요. 이 차량은 여성 명의로 등록돼 있거든요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm" TARGET="F"><![CDATA[~b~경관: ~w~흥미롭네요. 이 차량은 남성 명의로 등록돼 있거든요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~뭐요?! 말도 안 돼요! 착오가 있는 거예요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~경관: ~w~시스템은 착오가 없습니다. 이 차량이 누구 거예요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자: ~w~제 거라고요! 시간 낭비예요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~경관: ~w~차량에서 내려주십시오. 지금.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~용의자: ~w~절대 안 해요! 이것 때문에 잡혀가지 않겠어요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="shouting" TARGET="F"><![CDATA[~b~경관: ~w~총격받고 있어요! 무기 소지 중이니 조심해요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting" TARGET="M"><![CDATA[~b~경관: ~w~총격받고 있어요! 무기 소지 중이니 조심해요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~b~경관: ~w~용의자를 제압해야 해요! 엄호해 주세요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~경관: ~w~정말... 아슬아슬했어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~b~경관: ~w~딱 맞게 오셨어요, 감사합니다!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~와주셔서 감사합니다 경관님. 이 차량을 세웠는데 검문 전에 지원이 필요했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다, 어떻게 할까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~차량이 이탈하는 경우를 대비해서 순찰 차량에 있어 주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다, 출발하죠.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~오셨군요. 이 차가 좀 이상한 것 같아서 혼자 접근하기 전에 지원이 필요했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 어떻게 할까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~차량에 있으면서 달아나면 대비해 주세요. 검문은 제가 하겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 어떻게 전개될지 봅시다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~와주셔서 감사해요. 상황이 악화되지 않도록 조용히 처리하려고 해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠어요. 뒤에 있을까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~네, 차량에 있으면서 상황을 지켜봐 주세요. 뭔가 이상하면 대비해 주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 지켜보겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~오셔서 다행이에요. 이 차량에 다른 시선이 있으면 더 좋을 것 같아서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠어요, 어디 필요하세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~제가 운전자와 대화하는 동안 조수석 쪽으로 가주세요. 혹시 모를 상황에 대비해서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~수신. 갑시다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~경관: ~w~이 차가 좀 이상해요. 와주셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~문제없어요. 어떻게 할까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~b~경관: ~w~제가 운전자와 대화할 테니 조수석 쪽으로 접근해 주세요. 상황이 안 좋아지면 덜 직접적으로요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다, 함께하죠.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~이봐요, 와주셔서 감사해요. 혼자 하기 싫었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠어요. 어디로 갈까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~저랑 같이 운전석 쪽으로 가주세요. 간단하게 처리하죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다, 처리하죠.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~빠른 대응 감사해요. 이 운전자가 눈에 띄는 걸 알았으면 해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 어디로 가면 될까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~저랑 같이 운전석 쪽에 서주세요. 존재감이 나쁠 건 없으니까요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 하죠.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~감사해요. 지금은 차량에 있어도 되고 앞에 합류해도 돼요, 상황 봐서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠어요, 상황에 따라 결정하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~경관: ~w~좋아요. 필요하면 부를게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~지원하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~이봐요, 오셔서 다행이에요. 요즘 교통 검문 상황을 보면 혼자 접근하기 싫어서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 어떤 계획인가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~b~경관: ~w~제가 운전자와 대화하는 동안 조수석 쪽에 있어 주세요. 혹시 모르니까요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다, 신중하게 처리하죠.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~경관: ~w~이봐요, 어... 와주셔서 감사해요. 혼자 검문하는 데 아직 익숙하지 않아서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~문제없어요. 계획이 있어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~b~경관: ~w~네, 그냥 지원이 있으면 더 안심이 돼서요. 차에 있어도 되고 운전석 쪽에 합류해도 돼요. 상황 봐서요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 준비하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~지원 감사합니다 경관님! 나머지 근무도 좋은 하루 되세요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~경관: ~w~감사합니다. 검문 지원해 주셔서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~경관: ~w~감사합니다. 검문 지원해 주셔서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~감사합니다, 경관님. 신세를 졌어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~이상 없습니다. 밖에서도 긴장 늦추지 마세요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~마무리됐습니다. 지원해 주셔서요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~든든했습니다. 안전하게 근무하세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~b~경관: ~w~수월했어요! 다음 신고에서 봐요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="M"><![CDATA[~b~경관: ~w~감사합니다! 지원이 있으니 역시 든든하네요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy" PLAYER="F"><![CDATA[~b~경관: ~w~감사합니다! 지원이 있으니 역시 든든하네요.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

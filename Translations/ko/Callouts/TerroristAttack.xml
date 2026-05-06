@@ -1,0 +1,11 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[테러 공격]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~{0}~w~에서 테러 공격 발생함. 추가 인명 피해 방지를 위해 ~r~테러리스트~w~ 제압 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~수상한 차량~w~이 현장으로 접근 중. 현장 확보 요망!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~명의 수상한 인물이 테러 공격 현장으로 이동 중임.]]></NOTIFICATION> <!-- between 1-3 -->
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

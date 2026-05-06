@@ -1,0 +1,82 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[주거 침입 미수]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[주민이 자신의 집에 ~y~침입 시도~w~가 있었다고 신고함. 용의자는 현장에서 달아난 것으로 보임.]]></FURTHERINFORMATION>
+		<OTHER><![CDATA[~y~{0}~w~ 키를 눌러 증거 수집 요망.]]></OTHER>
+		<OTHER><![CDATA[~g~{0}~w~ 수집 성공.]]></OTHER>
+		<OTHER><![CDATA[신분증]]></OTHER>
+		<OTHER><![CDATA[지갑]]></OTHER>
+		<OTHER><![CDATA[가위]]></OTHER>
+		<OTHER><![CDATA[목걸이]]></OTHER>
+		<OTHER><![CDATA[신발]]></OTHER>
+		<OTHER><![CDATA[쇠지레]]></OTHER>
+		<OTHER><![CDATA[휴대폰]]></OTHER>
+		<OTHER><![CDATA[인근 지역 ~y~수색~w~ 후 침입 흔적 및 증거 확보 요망. 완료 후 ~y~집주인에게 복귀~w~ 요망.]]></OTHER>
+		<OTHER><![CDATA[~r~잠금 해제 도구]]></OTHER>
+		<OTHER><![CDATA[~r~장갑]]></OTHER>
+		<OTHER><![CDATA[~y~마스크]]></OTHER>
+		<OTHER><![CDATA[~y~복면]]></OTHER>
+		<OTHER><![CDATA[~r~포켓 나이프]]></OTHER>
+		<OTHER><![CDATA[~r~지레]]></OTHER>
+		<OTHER><![CDATA[~y~쌍안경]]></OTHER>
+		<OTHER><![CDATA[~r~재갈]]></OTHER>
+		<NOTIFICATION><![CDATA[~y~사진~w~과 ~y~수색 구역~w~을 이용해서 ~r~용의자~w~ 체포 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[이것이 ~r~용의자~w~의 ~y~사진~w~임.~n~~y~Y~w~ 키를 눌러 이 알림을 다시 볼 수 있음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[이 자리에 ~r~증거 없음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~{1}~w~과 관련된 ~y~{0}~w~을 발견함. 이 사람에 대한 긴급 정보 요청 중.]]></NOTIFICATION> <!-- // 0: an item. 1: the suspect's name. -->
+		<NOTIFICATION><![CDATA[~r~{0}~w~의 인근 목격 정보 확인 중. 대기 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[증거물 ~y~{0}~w~/~g~{1}~w~개 수집 완료.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[증거물 ~g~{0}~w~/~g~{1}~w~개 수집 완료.]]></NOTIFICATION> <!-- // If all evidence was collected, we'll make the number green! :) -->
+	</GENERAL>
+	<OUTCOME0>
+		<NOTIFICATION><![CDATA[~r~용의자~w~ ~y~체포~w~ 후 적절히 처리 바람.]]></NOTIFICATION>
+	</OUTCOME0>
+	<OUTCOME1>
+		<NOTIFICATION><![CDATA[~r~용의자~w~ 도주 중!]]></NOTIFICATION>
+	</OUTCOME1>
+	<OUTCOME2>
+		<NOTIFICATION><![CDATA[~r~용의자~w~가 ~y~자수~w~ 중. 체포 후 조사 요망.]]></NOTIFICATION>
+	</OUTCOME2>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~y~피해자:~w~ 경관님, 도와주세요! 도와주세요!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 괜찮으세요, 선생님. 이제 안전합니다. 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 괜찮으세요. 이제 안전합니다. 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 누군가 침입하려고 했어요... 소리를 듣자마자 방 안으로 들어가 문을 잠갔어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠습니다. 침입자를 보셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~피해자:~w~ 직접 보진 못했지만, 경관님이 오실 때까지 집 밖에서 움직이는 소리가 많이 들렸어요. 무엇을 하고 있었는지 모르겠어요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 감사합니다. 주변에서 단서를 찾아볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 인근을 수색했지만 아쉽게도 용의자와 연결될 만한 증거를 찾지 못했습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~피해자:~w~ 아쉽네요... 이제 어떻게 되나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 나중에 형사들이 추가 조사를 위해 방문할 겁니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 아쉽게도 초기 조사에서 단서를 찾지 못했습니다. 지금으로선 더 이상 할 수 있는 게 없어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 인근을 수색해서 용의자와 연결되는 증거를 찾았어요. 지금 바로 추적하러 가겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~y~피해자:~w~ 잘됐네요, 행운을 빌어요, 경관님!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 경관님, 제발요! 밖에서 누군가 들어오는 소리가 들렸어요. 너무 무섭습니다!]]></DIALOGUE>
+			<DIALOGUE TARGET="M"><![CDATA[~b~당신:~w~ 진정하세요, 선생님. 제가 왔습니다. 무슨 소리를 들으셨나요?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"><![CDATA[~b~당신:~w~ 걱정 마세요. 이제 안전합니다. 무슨 일이 있었는지 말씀해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 창문을 두드리는 소리가 들렸는데, 차마 확인하지 못했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠습니다. 이 일이 있기 전에 이상한 점은 없었나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~피해자:~w~ 아니요, 그 전까지는 조용했어요. 제발 범인을 찾아주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 최선을 다할게요. 침입 흔적을 찾아볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 주변을 수색했지만 용의자로 이어지는 단서를 찾지 못했습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~피해자:~w~ 어떡하죠?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 형사가 수사를 인계받을 때까지 기다려야 할 것 같습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 아쉽게도 지금으로선 더 이상 할 수 있는 게 없어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 좋은 소식이에요! 범인으로 이어질 수 있는 증거를 인근에서 찾았어요. 바로 추적하러 가겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~피해자:~w~ 다행이에요, 경관님! 감사해요, 조심하세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

@@ -1,0 +1,117 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[함정 수사]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[한 경찰관이 ~r~불법 총기 거래~w~에 대한 함정 수사를 진행 중임. ~y~만남 장소~w~로 이동 후 대화 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~정보원~w~을 ~r~총기 판매점~w~까지 차로 데려가서 인근에 주차 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~매장 밖에 은밀하게 주차~w~ 완료 시, ~y~{0}~w~ 키를 눌러 함정 수사 시작 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~Ammunation~w~에 들어가서 ~r~불법 총기 거래~w~ 혐의로 점원 체포 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~점원: ~w~Terry가 보낸 사람이요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~정보원: ~w~네. 무슨 일인지 알고 오셨을 텐데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guarded"><![CDATA[~r~점원: ~w~어디에 쓸 건지에 따라서요. 자기 방어용, 아니면... 좀 더 강력한 거?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~b~정보원: ~w~막힐 때 안 막히는 걸로요. 아시겠죠?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~r~점원: ~w~딱 맞는 게 있어요. 서류 없이, 새 총신이에요. 현금 있어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~정보원: ~w~다 있어요. 말한 대로요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~점원: ~w~알겠어요. 봉투에 담을게요. 여기서 나가기 전까지 꺼내지 마요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~정보원: ~w~알겠어요. 다 됐나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~r~점원: ~w~다 됐어요. 이제 나가요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~정보원:~w~ 여기요, 약속대로요. 일련번호 없고, 그냥 이 봉투 안에 있었어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 쉽게 내줬어요. Terry가 보낸 사람이라고 했더니, 연습한 대로요. "자기 방어용이냐, 아니면 더 강력한 거냐"고 물었어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~정보원:~w~ 믿을 수 있는 게 필요하다고 했어요. 막히지 않는 거요. 그때 내줬어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 서류 얘기는 안 했어요.. "서류 없이, 새 총신"이라고 했어요. 현금 받고 건네주면서 조용히 나가라고 했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~정보원:~w~ 들어가시기 전에 한 가지 더, 카운터 뒤 왼쪽에 샷건을 숨겨놨더라고요. 겁먹을 수도 있어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~정보원:~w~ 여기요, 약속대로요. 일련번호 없고, 그냥 이 봉투 안에 있었어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 근데 이게, 이전에 봤던 건데요. East Vinewood 총격 사건에서 사용된 총기랑 거의 확실히 같아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~정보원:~w~ 옆면에 같은 흠집이 있고, 뒷 조준기가 없는 것도 같아요. 범죄 현장 사진이 돌아다닌 적 있어서 기억해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~정보원:~w~ 제 생각이 맞다면, 그 사람은 증거를 갖고 있는 거예요. 모르거나 모른 척하는 거겠죠. 어느 쪽이든, 상황이 심각해졌어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~정보원:~w~ 들어가서 체포해야 하지만, 정말 조심해요. 상황이 복잡해질 수 있어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="tense"><![CDATA[~y~정보원:~w~ 여기요. 일련번호 없고, 추적 불가, 그가 말한 대로. 카운터 밑에서 꺼냈어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~정보원:~w~ 질문을 많이 안 했어요. 현금 받고 은밀한 봉투에 넣어줬어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~정보원:~w~ 창문 쪽을 계속 힐끔거리더라고요. 그냥 불안한 건 줄 알았어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~정보원:~w~ 잠깐, 잠깐만요. 저기, 점원이 달아나요. 문 밖으로 뛰고 있어요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~정보원:~w~ 뭔가 눈치채거나 마음에 안 드는 게 보인 것 같아요. 빨리 움직여야 해요. 그 자리 있지 않을 거예요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~점원: ~w~Terry가 보낸 사람이요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~정보원: ~w~네. 장부 밖의 도움이 필요해서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~점원: ~w~카탈로그, 허가증, 신원 조회도 있어요. 그런 도움이요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~정보원: ~w~아니요, 서류 절차는 필요 없어요. 질문 없이 강력한 게 필요해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~점원: ~w~질문 없이요? 잘못 찾아온 거 아닌가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pushy"><![CDATA[~b~정보원: ~w~Terry가 당신한테 있다고 했잖아요. 전자동, 일련번호 없이, 깨끗한 재고. 지금 바로 살 준비됐어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~점원: ~w~Terry가 너무 입이 가벼워요. 나가요. 그리고 다시 오지 마요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~b~정보원: ~w~알겠어요, 알겠어요. 문제없어요. 가겠어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~점원: ~w~당연하죠. 시험하지 마요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="regretful"><![CDATA[~y~정보원:~w~ 실패했어요. 구체적으로 말하는 순간 바로 차단했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="ashamed"><![CDATA[~y~정보원:~w~ 진지하게 보이면 제안을 할 줄 알았는데. 오히려 바로 조용해지더니 빠르게 닫아버렸어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 전자동, 일련번호 없이 달라고 했어요... 현금도 준비됐다고 했는데. 나가라고 했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~정보원:~w~ 너무 세게 밀었어요. 제 탓이에요. 빠르게 마무리할 수 있을 거라 생각했는데 설정을 망쳐버렸어요. 죄송해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~정보원:~w~ 따라갈 게 없어요. 증거가 없으니까요. 이번엔 실패해서 죄송해요. 가끔 이런 일이 생기긴 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~정보원:~w~ 어쨌든... 이제 내릴게요. 순찰로 복귀하세요. 이번엔 그냥 막힌 리드인 것 같아요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~점원: ~w~Terry가 보낸 사람이요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="casual"><![CDATA[~b~정보원: ~w~네. 장부 밖의 도움이 필요해서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~점원: ~w~카탈로그, 허가증, 신원 조회도 있어요. 그런 도움이요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="impatient"><![CDATA[~b~정보원: ~w~아니요. 서류 안 써도 되는 거요. 추적 안 되는 깨끗한 거 필요해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="suspicious"><![CDATA[~r~점원: ~w~경찰인가요? 설정된 것 같은데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~b~정보원: ~w~경찰처럼 보여요? Terry가 보증해요. 현금도 있어요. 그게 중요한 거 아닌가요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~점원: ~w~그래요? Terry는 말이 너무 많아요. 마지막에 보낸 사람이 제 문 앞에 열기를 가져왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="reassuring"><![CDATA[~b~정보원: ~w~저는 아니에요. 일회성 구매예요. 전자동, 일련번호 없이, 깨끗한 재고. 그게 거래예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~r~점원: ~w~뭘 원하는지 정말 알아요? 그런 건 그냥 굴러다니지 않아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~b~정보원: ~w~정확히 뭘 원하는지 알아요. 돈도 있어요. 그냥 예스 아니면 노예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="wary"><![CDATA[~r~점원: ~w~...아마도요. 오늘 누가 지켜보는지에 따라서요. 혼자예요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~b~정보원: ~w~미행 없어요. 도청 없어요. 나랑 현금만이에요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~점원: ~w~알겠어요. 잠깐만요. 뒤쪽 확인할게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES AI="true">
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~갱단원 1: ~w~야! Big Ray 팀한테 팔았다는 걸 우리가 모를 줄 알았어?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~점원: ~w~무슨 말인지 모르겠어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~r~갱단원 2: ~w~그만해. 지난주에 그 팀한테 상자를 팔았잖아. 이제 그 팀이 구역 장악한 것처럼 행동하고 있어. 그게 다 당신 때문이야!]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~갱단원 1: ~w~우리는 단골이었잖아. 근데 이제 적들이랑 거래하면서, 우리 바로 눈앞에서? 무례한 거 아니에요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~점원: ~w~이봐요, 사업은 사업이에요. 편을 가르지 않아요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="furious"><![CDATA[~r~갱단원 2: ~w~틀린 대답이에요. 방금 편을 가른 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~점원: ~w~이봐요! 바보 같은 짓 하지 마요!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~y~정보원:~w~ 여기서 죽기 싫어요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE PLAYER="M" EMOTION="excited"><![CDATA[~y~경관:~w~ 와주셔서 감사합니다! 불법 총기 거래를 어떻게 처리할지 얘기해 봅시다!]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="excited"><![CDATA[~y~경관:~w~ 와주셔서 감사합니다! 불법 총기 거래를 어떻게 처리할지 얘기해 봅시다!]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~경관:~w~ 최근에 사용된 불법 총기들을 많이 조사해왔는데, 이제 잡을 수 있을 것 같아요. 증거만 필요해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~경관:~w~ 우리 수사는 인근 총기 판매점을 주목하고 있어요. 서류는 다 맞는데, 최근 총격 사건들이 여기까지 추적돼요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~경관:~w~ 그 모든 총기의 출처가 이 가게예요. 우리 법의학 팀은 정말 잘 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 저는 정보원이에요. 함께 인근 가게로 가겠습니다. 이 순간을 오랫동안 기다려왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~경관:~w~ 저는 이제 순찰로 돌아가야 해요. 정보원을 가게로 데려다주세요. 이동하면서 필요한 걸 다 알려드릴 거예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 좋아요. 제 차에 타세요, 함정 수사를 시작합시다!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 알겠어요, 이렇게 진행할 거예요. 제가 들어가서 "깨끗한 물건"을 달라고 해요. 추적 안 되는 거요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cautious"><![CDATA[~y~정보원:~w~ 당신은 뒤에 있어야 해요. 차에서 기다리되, 엔진은 켜두되 시야에서 벗어나게 있으세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="instructive"><![CDATA[~y~정보원:~w~ 문을 통해 대화를 들을 수 있으면 좋겠지만, 너무 눈에 띄지 마세요. 이 사람들은 금방 눈치 채요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~정보원:~w~ 거래가 성사되면, 아무것도 없었던 것처럼 걸어나와서 차로 돌아갈 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~정보원:~w~ 설정을 눈치채지 않길 바랄게요. 마지막에 누군가가 거기서 거래 시도했다가 걸어나오지 못했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~정보원:~w~ 다 잘되면, 가게 앞에 주차하고, 내가 나가서 거래하고, 차로 돌아오면, 다음 단계를 얘기해요. 좋아요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~정보원:~w~ 그리고 만약 뭔가 잘못되거나, 눈치채거나, 예상치 못한 방문자가 생기면, 백업이 필요할 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~정보원:~w~ 더 힘든 일도 해봤어요. 근데 총구멍 없이 이번을 끝내고 싶어요. 망치지 맙시다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

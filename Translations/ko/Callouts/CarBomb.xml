@@ -1,0 +1,32 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[차량 폭탄]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 ~y~폭탄 해제 시도~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[차량 ~r~언제든 폭발 위험 있음~w~.~n~~y~민간인을 차량 이동 경로에서 벗어나게 하거나~w~, ~y~최대한 빠르게 추격 종료~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~성공.~w~~n~폭탄 해제됨. 적절히 처리 바람.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~실패.~w~~n~폭탄 해제 불가. ~y~즉시 주변 지역 대피~w~ 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+		<FURTHERINFORMATION><![CDATA[~r~차량 폭탄~n~~w~ 정보 입수됨. ~y~신속하게 현장 출동~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[용의자 폭탄 탑재 후 ~y~차량으로 도주~w~ 중.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[차량 ~r~언제든 폭발 위험 있음~w~.~n~~y~민간인을 차량 이동 경로에서 벗어나게 하거나~w~, ~y~최대한 빠르게 추격 종료~w~ 요망.]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~기폭 장치]]></OTHER>
+	</OUTCOME0>
+	<OUTCOME1>
+		<FURTHERINFORMATION><![CDATA[~r~차량 폭탄~n~~w~ 소지한 정신적으로 불안정한 인물 정보 입수됨. ~y~신속하게 현장 출동~w~ 요망.]]></FURTHERINFORMATION>
+    	<OTHER><![CDATA[~r~기폭 장치~w~, ~y~기폭 장치 배선]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="fear"><![CDATA[~r~용의자:~w~ 항복합니다! 체포해 주세요, 경관님!]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~r~용의자:~w~ 경관님... 이렇게 끝날 줄 알았어요...]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<FURTHERINFORMATION><![CDATA[~r~차량 폭탄~n~~w~ 정보 입수됨. ~y~신속하게 현장 출동~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[차량 폭탄 ~y~폭발됨.~n~~w~사상자 보고: ~r~{0}명.]]></NOTIFICATION>
+	    <OTHER><![CDATA[~y~기폭 장치 배선~w~,~r~폭발물]]></OTHER>
+	</OUTCOME2>
+	<OUTCOME3>
+		<FURTHERINFORMATION><![CDATA[~r~방치된 차량 폭탄~w~ 발견됨.~n~~y~신속하게 현장 출동해서 ~y~폭탄 해제~w~ 요망.]]></FURTHERINFORMATION>
+	    <OTHER><![CDATA[~y~차 키~w~, ~r~폭탄]]></OTHER>
+	</OUTCOME3>
+</CALLOUT>

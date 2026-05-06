@@ -1,0 +1,108 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[살인 수사]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~r~살인 사건 발생~w~. 팀과 함께 현장으로 이동해서 ~b~증거 수집~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~b~수색~w~ 후 ~y~{0}~w~ 키를 눌러 증거 회수 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[증거 확보: ~n~~r~{0}~w~ ]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[이 자리에 ~r~증거 없음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~수색 완료?~w~ ~n~~y~{0} 키를 길게 눌러~w~ ~b~과학수사관~w~에게 복귀 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[이 사람이 특정된 ~r~용의자~w~임.~n~~y~Y~w~ 키를 눌러 이 알림을 다시 볼 수 있음~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[증거물 ~y~{0}~w~/~g~{1}~w~개 수집 완료.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[증거물 ~g~{0}~w~/~g~{1}~w~개 수집 완료.]]></NOTIFICATION>
+		<!-- // If all evidence was collected, we'll make the number green! :) -->
+
+		<OTHER><![CDATA[권총]]></OTHER>
+		<OTHER><![CDATA[신분증]]></OTHER>
+		<OTHER><![CDATA[물병]]></OTHER>
+		<OTHER><![CDATA[복면]]></OTHER>
+		<OTHER><![CDATA[칼]]></OTHER>
+		<OTHER><![CDATA[시계]]></OTHER>
+		<OTHER><![CDATA[휴대폰]]></OTHER>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[~o~용의자 주소~w~로 이동해서 ~r~용의자~w~ 검거 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[인근에서 ~y~도보로 이동 중~w~인 ~r~용의자~w~ 추적 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[~r~긴급 출동~w~ 현장으로 이동해서 이 살인 사건의 ~y~용의자와 동일 인물인지~w~ 확인 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[~b~ALPR 카메라~w~에 감지된 ~r~용의자 차량~w~ 추격 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[~b~지하철~w~로 이동해서 용의자 도주 전 ~r~용의자~w~ 추적 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~b~과학수사관~w~에게 말을 걸어 ~y~수사~w~ 시작 요망.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="calm"><![CDATA[~y~과학수사관:~w~ 경관님. 직접 구역을 확보했습니다. 사망자 1명 확인. 의료적 개입 흔적 없음.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 초기 분석은 어떻게 됩니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~과학수사관:~w~ 외상 흔적을 보면 고의적인 공격으로 보입니다. 증거가 나오기 전에는 추정하지 않겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~현장 오염은요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~y~과학수사관:~w~ 현재까지 최소한으로 유지됩니다. 카메라 담당자가 시신을 기록 중입니다. 상황이 바뀌기 전에 넓은 구역을 수색하고 싶습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~격자 수색을 원하시나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~과학수사관:~w~ 맞습니다. 시신 가까운 곳부터 시작해서 바깥으로 넓혀가세요. 무기, 천 조각, 개인 소지품 등 이상한 것은 모두 수거하세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~발견하는 대로 가져올까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~과학수사관:~w~ 아닙니다. 수색을 먼저 완료하세요. 찾을 수 있는 것을 모두 회수한 후 한꺼번에 저한테 가져오세요. 차량에서 한 번에 처리하겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 다른 사항은요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 용의자가 사라졌다는 확인이 없습니다. 수색하는 동안 경계를 늦추지 마세요. 증거가 상황을 말해줄 겁니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~알겠습니다. 전체 수색을 실시하고 복귀하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 오셨군요. 좋지 않은 상황이에요. 시신 1구, 다발 부상. 명백한 의도적 범행입니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~얼마나 된 것 같습니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="focused"><![CDATA[~y~과학수사관:~w~ 아직 확인하기 어렵습니다. 중요한 건 범행에 사용된 것들이 아직 근처에 있을 가능성이 높다는 거예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~흉기가 근처에 있을 것 같습니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="determined"><![CDATA[~y~과학수사관:~w~ 대부분의 범인들은 패닉 상태가 아닌 이상 증거를 가지고 다니지 않아요. 시신 근처부터 시작해서 바깥으로 천천히, 꼼꼼하게 수색하세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~구체적으로 무엇을 찾아야 합니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 어울리지 않는 것이라면 무엇이든요. 날붙이, 둔기, 버려진 옷, 떨어진 소지품. 이상하다 싶으면 수거하세요. 하지만 수색을 다 마친 후에 오세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~격자 수색을 완료한 후 한꺼번에 가져오면 됩니까?]]></DIALOGUE>
+			<DIALOGUE EMOTION="professional"><![CDATA[~y~과학수사관:~w~ 정확합니다. 잠재적 증거를 모두 회수한 후 저한테 한꺼번에 가져오세요. 차량에서 현장 분석을 실시하겠습니다. 사용 가능한 DNA나 흔적이 있으면 빠르게 움직이겠습니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~수신. 먼저 전체 현장을 확보하겠습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="firm"><![CDATA[~y~과학수사관:~w~ 좋아요. 꼼꼼함이 빠름보다 중요합니다. 피해자의 목소리를 내드립시다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신: ~w~지금 전체 수색을 시작하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<NOTIFICATION><![CDATA[~b~법의학 분석~w~ 수행 중: ~g~{0}%~w~~n~~r~{1}~w~]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~과학수사관:~w~ 증거를 제출하지 않으셨네요. 이 살인 수사는 계속할 수 없습니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~과학수사관:~w~ 제대로 하지 않을 거면 왜 나타난 거죠?]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="excited"><![CDATA[~y~과학수사관:~w~ 이거 흥미롭네요. 이 증거들을 살펴보고 무엇을 찾았는지 알려드릴게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 권총에서 일련번호를 확인했어요. 시스템에서 이 총기의 등록자를 확인할 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 이 신분증이 매우 도움이 됐어요. 잘 찾으셨어요. 누구 것인지 정확히 알 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 물병 때문에 좀 어려웠지만, 면봉 채취를 했어요. 믿기 어렵겠지만, DNA 일치가 나왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 복면의 섬유를 살펴보다가 걸린 머리카락과 대조할 수 있었어요. 이게 누구 것인지 알아봅시다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 칼은 절대 사용하면 안 되는 이유가 있죠, 지문이 가득하거든요. 누가 이것을 잡았는지 알 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 처음 있는 일이에요! 범죄 현장에 남겨진 이 시계 뒷면에 새김이 있어요. 이름을 읽을 수 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~과학수사관:~w~ 뚫리지 않는 휴대폰은 없죠. 많은 정보를 뒤졌지만 이 전화기의 등록자를 찾았어요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true" AI="true"> <!-- For Charlie: use radio as a toggle, not a set. -->
+			<DIALOGUE PLAYER="M" EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 안녕하세요 Dispatch, 저 Timothy Ifield입니다. 업무용 전화로 연락드려요.]]></DIALOGUE>
+			<DIALOGUE PLAYER="F" EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 안녕하세요 Dispatch, 저 Roz Huntley입니다. 업무용 전화로 연락드려요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~과학수사관:~w~ 법의학 자료를 공유했습니다. 현장의 수사 경관에게 세부 내용을 전달해 주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~Dispatch:~w~ 연구소에서 수신 완료. 지금 전송하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES RADIO="true">
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ 이 인물과 관련된 주소가 확인됐어. 확인해봐야 해.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ 이 인물의 위치를 파악했어. 지금 바로 가줘.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ 인근에서 총기 위협 신고가 들어왔어. 혹시 같은 인물일 수도 있어, 지금 바로 가줘!]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ 30초 전에 차량에서 ALPR 감지됐어. 검거해.]]></DIALOGUE>
+			<DIALOGUE EMOTION="urgent"><![CDATA[~y~Dispatch:~w~ 이 인물이 최근 지하철 승차권을 사용한 것 같아, 이동 중이야.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~과학수사관:~w~ 죄송합니다 경관님, 이 증거들을 특정 인물과 연결하지 못했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y~과학수사관:~w~ 증거를 찾더라도 범인들이 장갑을 끼거나 추적 불가능한 총기를 사용하는 등 영리하게 행동한 경우가 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="sad"><![CDATA[~y	~과학수사관:~w~ 현장을 정리하고, 다음 살인 수사 때 뵙겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+
+</CALLOUT>
+

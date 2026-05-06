@@ -1,0 +1,36 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[고위험 호송]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~y~수감자~w~를 ~y~{0}~w~까지 ~y~호송~w~ 필요. 지원 경찰관들이 도착 대기 중.]]></NOTIFICATION>
+		<FURTHERINFORMATION><![CDATA[~b~호송 정보:~w~~n~ {1}인 ~y~{0}~w~을 이송할 것임.]]></FURTHERINFORMATION> 	<!-- // 0: their name 1: their background -->
+		<OTHER><![CDATA[미션 로우 경찰서]]></OTHER>
+		<OTHER><![CDATA[볼링브룩 교도소]]></OTHER>
+		<OTHER><![CDATA[부패한 경찰관이 연루된 ~r~조직 범죄 집단~w~을 이끌고 있는]]></OTHER> 	<!-- // The prisoner is always male. -->
+		<OTHER><![CDATA[라이벌 갱단의 표적이 될 위험이 있는 악명 높은 ~y~조직 폭력배 두목~w~으로 현재 재판 대기 중인]]></OTHER>
+		<OTHER><![CDATA[범죄 세계와 연줄이 있는 전직 경찰관 출신 ~y~부패 밀고자~w~인]]></OTHER>
+		<OTHER><![CDATA[지역 최대 마약 조직과 연루된 ~y~마약 두목~w~인]]></OTHER>
+		<OTHER><![CDATA[현재 수감 중인 ~y~사이버 범죄자~w~인]]></OTHER>
+		<OTHER><![CDATA[최근 체포된 ~y~불법 무기 거래~w~를 통제하는]]></OTHER>
+		<OTHER><![CDATA[다른 이들이 구출을 시도할 위험이 있는 ~y~테러리스트~w~인]]></OTHER>
+		<OTHER><![CDATA[라이벌 조직의 보복 위협을 받고 있는 ~y~폭력 거리 갱단~w~을 결성한]]></OTHER>
+		<OTHER><![CDATA[당국에 의해 최근 적발된 ~y~악명 높은 마약 밀수 조직~w~의 일원이었던]]></OTHER>
+		<OTHER><![CDATA[~y~국제 자금 세탁 조직~w~을 구축한]]></OTHER>
+		<NOTIFICATION><![CDATA[준비 완료 시 ~y~호송대 선도~w~ 후 ~r~지정 경로~w~를 따라 이동 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[호송대를 뒤따르는 ~y~수상한 차량~w~ 목격됨. 대기 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[전방에 ~r~검문소~w~ 있음! 어떤 대가를 치르더라도 호송대 보호 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[인근에 ~y~수상한 차량~w~ 있음. 레이더 확인 요망!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~수감자~w~ ~r~사망~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~새로운 목표:~w~~n~ 생존, 질서 회복, 남은 적 제압 요망!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~호송 위험 단계:~w~~n~{0}~W~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~낮음]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~o~보통]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~높음]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[호송 차량 ~y~운전자~w~ ~r~사망~w~. ~y~직접 차량 운전~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[호송 ~r~실패~w~. ~y~수감자~w~ ~r~사망~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[호송 ~g~성공~w~. ~y~수감자~w~ ~g~살려서 이송~w~됨.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~b~호송대~w~가 멈췄음? 언제든 ~y~{0}~w~ 키를 눌러 재설정 가능.]]></NOTIFICATION>
+	</GENERAL>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

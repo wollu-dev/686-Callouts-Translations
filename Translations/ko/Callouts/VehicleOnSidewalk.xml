@@ -1,0 +1,46 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[인도 불법 주차]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[차량이 인도에 ~y~진입하여 통행 방해~w~ 신고됨. 운전자와 대화 요망.]]></FURTHERINFORMATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 여기 정차하시면 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 안 이동합니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이동해 주셔야-]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐만요. 무슨 일이신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 별일 없어요. 뭔가 문제 있나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기는 인도입니다. 이동해 주셔야 합니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 누군가를 기다리고 있어요, 곧 올 거예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 요청이 아닙니다. 인도라 사람들이 사용하고 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 다른 곳에 주차하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 인도에 주차하신 거 알고 계신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="hopeful"><![CDATA[~r~용의자:~w~ 네, 그냥 친구를 기다리고 있어요. 있어도 될까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안 됩니다.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 그럼 어디로 가야 하죠?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 주차 공간이나 유사한 장소로 가시면 됩니다. 주변에 많이 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 알겠습니다. 죄송해요, 다시는 안 하겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<OTHER><![CDATA[~r~포장된 대마초 봉투들]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 여기 왜 주차하셨어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="mysterious"><![CDATA[~r~용의자:~w~ 뭔가를 배달하는 중입니다.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 뭘요? 배달 기사처럼 보이지는 않으시는데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="serious"><![CDATA[~r~용의자:~w~ 음, 해야 할 일이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그러니까, 여기서 뭔가를 기다리며 배달하려는 거죠?]]></DIALOGUE>
+			<DIALOGUE EMOTION="pleading"><![CDATA[~r~용의자:~w~ 이게 필요해요, 가족을 위해서요. 제발요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+</CALLOUT>

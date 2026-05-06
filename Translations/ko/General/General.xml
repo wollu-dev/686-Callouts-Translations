@@ -1,0 +1,85 @@
+<GENERAL>
+	/// Notifications related to the Update Check.
+	<UPDATECHECKER>
+		<LOADED><![CDATA[~g~완벽하게 로드됨~w~. 순찰 시작 요망.]]></LOADED>
+		<UPDATEAVAILABLE><![CDATA[~r~구버전 사용 중!]]></UPDATEAVAILABLE>
+		<UPDATEAVAILABLE><![CDATA[~y~로드됨. 가능한 빨리 686 Callouts 업데이트 요망.]]></UPDATEAVAILABLE>
+		<BETAVERSION><![CDATA[~r~베타 빌드 감지됨.]]></BETAVERSION>
+		<BETAVERSION><![CDATA[테스트와 피드백에 감사함. <3]]></BETAVERSION>
+		<FAILED><![CDATA[~r~업데이트 확인 실패!]]></FAILED>
+		<FAILED><![CDATA[~y~로드됨. 업데이트 확인 불가.]]></FAILED>
+	</UPDATECHECKER>
+
+	/// Notifications related to the Dependency check.
+	<DEPENDENCYCHECK>
+		<MISSINGFILES><![CDATA[686 Callouts 파일 없음!]]></MISSINGFILES>
+		<CALLOUTINTERFACEAPI><![CDATA[CalloutInterfaceAPI]]></CALLOUTINTERFACEAPI>
+		<_686CALLOUTSFOLDER><![CDATA[686 Callouts 폴더]]></_686CALLOUTSFOLDER>
+		<AUDIOFOLDER><![CDATA[오디오 폴더]]></AUDIOFOLDER>
+		<AUDIOFILES><![CDATA[오디오 파일]]></AUDIOFILES>
+		<TRANSLATIONSFOLDER><![CDATA[번역 폴더]]></TRANSLATIONSFOLDER>
+		<DATAFOLDER><![CDATA[데이터 폴더]]></DATAFOLDER>
+	</DEPENDENCYCHECK>
+
+	/// Notifications related to Career Statistics.
+	<STATISTICS>
+		<CAREERSTATISTICS><![CDATA[경력 통계]]></CAREERSTATISTICS>
+		<CALLS><![CDATA[신고 출동]]></CALLS>
+		<FIGHTS><![CDATA[격투]]></FIGHTS>
+		<PURSUITS><![CDATA[추격전]]></PURSUITS>
+		<ARRESTS><![CDATA[체포]]></ARRESTS>
+		<SUSPECTDEATHS><![CDATA[용의자 사망]]></SUSPECTDEATHS>
+	</STATISTICS>
+
+	/// Notifications related to AI Voices.
+	<AI>
+		<AIVOICES><![CDATA[686 Callouts AI 음성:]]></AIVOICES>
+		<VOICEDOWNLOAD><![CDATA[상태: 다운로드 중 ~n~~y~{0} GB~w~ / ~g~{1} GB~w~ [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[상태: 설치 중 ~n~~y~{0}~w~ / ~g~{1}~w~ 파일 [~b~{2}%~w~]]]></VOICEDOWNLOAD>
+		<VOICEDOWNLOAD><![CDATA[상태: ~g~자동 설치 완료~w~.]]></VOICEDOWNLOAD>
+	</AI>
+
+	/// Notifications relating to the Backup Helicopter Search Team.
+	<SEARCHHELI>
+		<REQUESTHELI><![CDATA[~b~수색 헬기~w~ 지원 필요 시 10초 안에 ~y~{0}~w~ 키 입력 바람.]]></REQUESTHELI>
+		<ISAVAILABLE><![CDATA[수색 헬기 ~g~지원 가능 상태~w~.]]></ISAVAILABLE>
+		<ISAVAILABLE><![CDATA[수색 헬기 ~r~출동하지 않았음~w~.]]></ISAVAILABLE>
+		<LOCATEDPED><![CDATA[항공 지원이 {0} 구역에서 ~g~대상 발견~w~. 도착 전 해당 구역 대기 중. ~y~지도 확인 요망~w~.]]></LOCATEDPED>
+		<ZONESEARCH><![CDATA[항공 지원이 {0} 구역으로 이동 중.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[항공 지원이 {0} 구역으로 이동 중. {1} 구역은 이상 없음.]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~b~파란색~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~o~주황색~w~]]></ZONESEARCH>
+		<ZONESEARCH><![CDATA[~g~초록색~w~]]></ZONESEARCH>
+	</SEARCHHELI>
+
+	/// All other notifications.
+	<NOTIFICATIONS>
+		<BEHAVIOURALANALYSIS><![CDATA[~b~행동 분석~w~]]></BEHAVIOURALANALYSIS> // Example: "Suspect appears nervous."
+		<BEHAVIOURALANALYSIS><![CDATA[용의자가~y~ {0}해 보임.]]></BEHAVIOURALANALYSIS>
+		<BEHAVIOURALANALYSIS><![CDATA[피해자가~y~ {0}해 보임.]]></BEHAVIOURALANALYSIS>
+		<CRASHPREVENTION><![CDATA[~r~충돌 방지]]></CRASHPREVENTION>
+		<CRASHPREVENTION><![CDATA[~o~문제 발생 가능성 있음.~w~ 지원팀에 문의 요망.]]></CRASHPREVENTION>
+		<DISTANCECHECK><![CDATA[~r~거리 확인]]></DISTANCECHECK>
+		<DISTANCECHECK><![CDATA[거리 너무 가까움. 해당 신고 시작 불가.]]></DISTANCECHECK>
+		<INVALIDPED><![CDATA[GTA V 탓임!]]></INVALIDPED>
+		<INVALIDPED><![CDATA[~o~GTA V가 NPC를 삭제했음. 충돌은 방지했으나 이런 일이 자주 발생하면 안 됨.]]></INVALIDPED>
+		<DISPATCH><![CDATA[Dispatch]]></DISPATCH>
+		<DIALOGUEOVER><![CDATA[대화 종료. 상황 적절히 처리 바람.]]></DIALOGUEOVER>
+		<BEGINSPEAKING><![CDATA[~y~{0}~w~ 키 입력 시 대화 시작.]]></BEGINSPEAKING>
+		<ENDREMINDER><![CDATA[언제든 ~y~{0}~w~ 키 입력으로 신고 종료 가능.]]></ENDREMINDER>
+		<INFORMATION><![CDATA[정보]]></INFORMATION>
+		<CODE4><![CDATA[~g~Code 4.~w~ 출동 가능 상태로 복귀.]]></CODE4>
+		<PURSUITUPDATE><![CDATA[추격 업데이트]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[용의자가 ~y~{0}~w~인 것으로 추정됨.]]></PURSUITUPDATE> // Example: "Dispatch belives the suspect is Bob Peterson."
+		<PURSUITUPDATE><![CDATA[용의자가 ~y~{0}~w~이며 과거 ~y~{1}~w~건의 위반 이력이 있는 것으로 추정됨.]]></PURSUITUPDATE> // Example: "Dispatch believes the suspect is ~Bob Peterson~ who has 3 citation(s) in the past."
+		<PURSUITUPDATE TARGET = "M"><![CDATA[용의자가 ~y~남성~w~인 것으로 추정됨.]]></PURSUITUPDATE>
+		<PURSUITUPDATE TARGET = "F"><![CDATA[용의자가 ~y~여성~w~인 것으로 추정됨.]]></PURSUITUPDATE>
+		<PURSUITUPDATE><![CDATA[용의자가 ~y~{0}~w~이며 과거 ~y~{1}~w~회 검문 이력이 있는 것으로 추정됨.]]></PURSUITUPDATE> // "Example: Dispatch believes the suspect is Bob Peterson who has been stopped 2 time(s) in the past."
+		<PURSUITUPDATE><![CDATA[용의자에 대한 ~y~정보 없음~w~.]]></PURSUITUPDATE> // Dispatch does not know anything about the suspect.
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[DISPATCH]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[긴급 출동]]></CALLOUTDISPLAYEDNOTIFICATION>
+		<CALLOUTDISPLAYEDNOTIFICATION><![CDATA[신고: ~b~{0}~n~~w~위치: ~y~{1}]]></CALLOUTDISPLAYEDNOTIFICATION>
+	</NOTIFICATIONS>
+</GENERAL>
+
+<!-- <![CDATA[]]> -->

@@ -1,0 +1,111 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[무임승차]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~p~역 직원~w~이 ~y~열차 요금을 내지 않은 것으로 보이는 인물~w~을 검거해달라고 지원 요청함.~w~]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[무임승차 ~y~의심 인물과 대화~w~ 요망.]]></NOTIFICATION>
+		<OTHER><![CDATA[~g~유효한 승차권~w~]]></OTHER>
+		<OTHER><![CDATA[~r~위조 승차권~w~]]></OTHER>
+	</GENERAL>
+	<OUTCOME0>
+		<OTHER><![CDATA[인근 역에서 개찰구를 뛰어넘었다는 신고가 왔어. 대단하지만 엄연한 범죄야.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐만요, 잠시 기다려 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 빨리 해주세요, 열차를 타야 해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 개찰구를 뛰어넘으셨다고 역무원에게 연락을 받았는데요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 뭐... 그게 뭐가 대수예요. 잔돈이 없어서 그랬어요, 그냥 넘어가 주시면 안 되나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 요금을 내지 않고 열차를 이용하는 건 위반이에요, 과태료를 발부할게요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 그럼 빨리 끊어주세요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기요. 이번엔 과태료를 내면 열차를 타셔도 됩니다만, 다음부턴 모든 분들처럼 요금을 내주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 과태료가 이렇게 비싸요, 말도 안 돼. 그냥 승차권 살걸 그랬네요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME0>
+	<OUTCOME1>
+		<OTHER><![CDATA[어떤 분이 승차권을 가지고 있는데, 좀 이상해 보여요. 위조 승차권인 것 같은 느낌이 드는데, 요즘 점점 많아지고 있어서 걱정이에요.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 잠시 기다려 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자:~w~ 네 경관님, 무엇을 도와드릴까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 역 직원에게 어떻게 개찰구를 통과하셨냐는 연락을 받았어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 승차권이 있으니까 통과한 거죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요, 승차권을 좀 보여 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 그러죠. 왜 보셔야 하는지는 모르겠지만요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기 보면 승차권이 일주일 전에 만료됐는데, 왜 그런지 아세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="sarcastic"><![CDATA[~r~용의자:~w~ 설마요, 정말요! 어떻게 그럴 수가 있죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 모른 척하지 마세요, 고의로 기간 만료된 승차권을 사용하셨어요. 과태료를 발부할게요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 솔직히 좀 쓸모 있는 일을 하세요. 과태료 주면 나갈게요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 감사하네요. 덕분에 하루가 망했어요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+		<OTHER><![CDATA[다른 역의 동료가 무전으로 연락했어요. 승차권이 없는 것 같은데, 안타깝게도 동료가 카메라를 보지 않고 있었대요.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 잠시 기다려 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자:~w~ 네 경관님, 무엇을 도와드릴까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 승차권을 가지고 계신지 확인하러 왔어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 글쎄요, 있나요 없나요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 장난이 아니에요, 솔직하게 대답해 주셔야 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 아이고 세상에! 범죄자 잡아야지, 열차 타려는 사람은 왜 잡아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 다시 한번 여쭤볼게요, 승차권 가지고 계세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~용의자:~w~ 더 할 일 없으세요? 저 열차 타게 해주세요. 곧 도착한다고요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[~r~위조 승차권 판매 의심 인물~w~과 대화 요망.]]></NOTIFICATION>
+		<OTHER><![CDATA[어떤 분이 사용하는 승차권을 슬쩍 봤는데, 이상해 보였어요. 위조인 것 같아요.]]></OTHER>
+		<OTHER><![CDATA[~r~위조 승차권~w~]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐만요, 할 말이 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="neutral"><![CDATA[~r~용의자:~w~ 네 경관님, 무엇을 도와드릴까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 역 직원에게 어떻게 개찰구를 통과하셨냐는 연락을 받았어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 승차권이 있으니까 통과한 거죠.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요, 승차권을 좀 보여 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 네, 여기요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이거 위조 승차권이에요, 옆면 표시를 보면 알 수 있어요. 왜 사용하셨어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 역 입구에서 누가 파는 걸 샀는데, 일반 승차권의 절반 정도 가격이었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요, 그 사람한테서 싸게 샀다는 거죠?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~r~용의자:~w~ 네. 여기 제 신분증이요. 저 범죄자 아니에요, 정말이에요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 감사해요. 그 사람을 찾아볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐요. 할 말이 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~용의자:~w~ 또 경찰이네. 뭐예요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 위조 승차권을 판매한 혐의를 받고 있어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지금 임의 동행 요청할 거예요, 거기 있어줘요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~용의자:~w~ 손 들었어요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+		<OTHER><![CDATA[라디오로 들었는데, 어떤 분이 승차권을 사용하지 않은 것 같다고 하더라고요.]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요, 잠시 기다려 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="happy"><![CDATA[~r~용의자:~w~ 네 경관님, 무엇을 도와드릴까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 역 직원에게 어떻게 개찰구를 통과하셨냐는 연락을 받았어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 다른 분들처럼 승차권으로요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐 확인해도 될까요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~r~용의자:~w~ 그러세요. 왜 필요하신지는 모르겠지만요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이상 없는 것 같네요. 즐거운 여행 되세요!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME4>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~역무원:~w~ 잘 오셨어요 경관님, 신속하게 오셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 물론이죠, 상황에 대해 자세히 설명해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~역무원:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그렇군요. 좋지 않은 상황이네요. 지금 어디 있을 것 같아요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~역무원:~w~ 아직 열차가 없어서, 아마 플랫폼에 있을 거예요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 도움 주셔서 감사해요, 바로 가볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+	<EXTRA>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="serious"><![CDATA[~y~역무원:~w~ 이런 사소한 일로 부르게 되어 죄송해요, 와주셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮아요, 상황에 대해 자세히 설명해 주시겠어요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~y~역무원:~w~ {0}]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 무임승차 사건이군요. 어디 있을 것 같아요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="thoughtful"><![CDATA[~y~역무원:~w~ 생각해보니, 플랫폼에 있을 거예요. 그쪽밖에 없어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요, 거기부터 확인해볼게요!]]></DIALOGUE>
+		</DIALOGUES>
+	</EXTRA>
+</CALLOUT>

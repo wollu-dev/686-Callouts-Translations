@@ -1,0 +1,156 @@
+<!-- This callout is only available via Early Access https://ko-fi.com/686 -->
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[가택 점검]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[주택을 ~y~은밀히 감시~w~하면서 ~o~수상한 활동~w~이 있는지 확인 요망. 수상한 게 보이면 조치 바람.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~이상 없으면?~w~~n~~y~{0}~w~ 키를 눌러 신고 종료 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~사무침 경보~w~를 작동시킨 이유를 알기 위해 집 수색 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[현장에서 ~y~집주인과 대화~w~ 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[신고자가 ~o~주택~w~ 인근에서 ~o~수상한 행동~w~을 목격함. 집에 사람이 있는지 불확실. ~y~주택 조사~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[주택에서 ~y~차량~w~이 ~r~도난~w~됨. 용의자 검거 요망!]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~침입자:~w~ 어떻게 알았어요?!]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~r~침입자:~w~ 알았어요, 알았어요! 항복해요! 쏘지 마세요!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~침입자:~w~ 제길... 나가려면 거의 다 왔었는데!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~침입자:~w~ 이대로 잡힐 수는 없어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="defiant"><![CDATA[~r~침입자:~w~ 잡을 수 있으면 잡아봐, 경찰!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~침입자:~w~ 아니! 다시 감옥 가기 싫어!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~침입자 1:~w~ 이 집 잠금이 단단하네. 저쪽은 어때?]]></DIALOGUE>
+			<DIALOGUE EMOTION="quiet"><![CDATA[~r~침입자 2:~w~ 아니, 문틀이 튼튼해. 쇠지레도 제대로 안 들어가.]]></DIALOGUE>
+			<DIALOGUE EMOTION="irritated"><![CDATA[~r~침입자 1:~w~ 겉에서 볼 때는 쉬워 보였는데. 이거 할 만한 거 맞아?]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~r~침입자 2:~w~ 여기까지 왔잖아. 계속 해봐, 조용히.]]></DIALOGUE>
+			<DIALOGUE EMOTION="tense"><![CDATA[~r~침입자 1:~w~ 너무 세게 밀면 유리 전체가 덜컹거릴 것 같아.]]></DIALOGUE>
+			<DIALOGUE EMOTION="hushed"><![CDATA[~r~침입자 2:~w~ 그럼 밀지 마. 약한 부분을 찾아봐. 손잡이나 경첩 쪽을 봐.]]></DIALOGUE>
+			<DIALOGUE EMOTION="whisper"><![CDATA[~r~침입자 1:~w~ 시간 낭비하는 것 같은데. 아무것도 안 되네.]]></DIALOGUE>
+			<DIALOGUE EMOTION="dry"><![CDATA[~r~침입자 2:~w~ 그럼 계속 찾아봐. 어딘가는 약한 데가 있을 거야.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~r~침입자 1:~w~ 이런, 뛰어! 빨리, 빨리!]]></DIALOGUE>
+			<DIALOGUE EMOTION="panicked"><![CDATA[~r~침입자 2:~w~ 너무 오래 기다렸다고 했잖아! 빨리!]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="defeated"><![CDATA[~r~침입자 1:~w~ 알았어, 알았어! 손 들었어! 끝났어!]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~r~침입자 2:~w~ 그러니까... 이 집은 선택 잘못했다고!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~o~밴을 타고 도주한~w~ ~y~침입자 2명~w~ 검거 요망!]]></NOTIFICATION>
+		<OTHER><![CDATA[~r~장물]]></OTHER>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shouting"><![CDATA[~r~침입자:~w~ 밴에 타! 어서, 빨리!]]></DIALOGUE>`
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[정원사의 ~y~신분증 확인~w~ 후 이상 없으면 ~y~{0}~w~ 키를 눌러 ~g~보내줄 것~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~y~정원사:~w~ 와! 깜짝이야! 저 여기서 일해요, 정말이에요!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 진정하세요. 사무침 경보 신고를 받고 온 거예요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="nervous"><![CDATA[~y~정원사:~w~ 아... 그거 제가 건드렸나봐요. 일찍 왔다가 뭔가 작동된 줄 몰랐어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 신분증 있어요? 여기 있어야 할 분인지 확인해야 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~정원사:~w~ 네, 여기요. 정말 죄송해요, 경관님.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮아요. 확인하는 동안 잠시 기다려 주세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[집주인이 자신의 주택에 ~y~무단 거주자 2명~w~이 있다고 신고함.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[집을 ~y~수색~w~해서 ~y~무단 거주자 2명~w~을 찾을 것.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="startled"><![CDATA[~y~무단 거주자:~w~ 이봐요, 문제 일으키려는 게 아니에요, 알겠죠?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이곳은 사유지예요. 여기 거주하거나 소유자를 아세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~y~무단 거주자:~w~ 아니요, 그냥 잘 곳이 필요해서요. 뒷마당이 비어 보여서... 신경 안 쓸 것 같았어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 집주인은 신경 써요. 침입한 것 같다고 신고를 했거든요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="guilty"><![CDATA[~y~무단 거주자:~w~ 네... 부수거나 안에 들어간 건 아니에요. 그냥 밖에 있었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 상황은 이해하지만, 여기 있을 수 없어요. 두 분 다 짐 챙겨서 나가주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="resigned"><![CDATA[~y~무단 거주자:~w~ 알겠어요. 나갈게요. 아무한테도 피해 주려던 게 아니었어요. 짐 챙겨요.]]></DIALOGUE>
+		</DIALOGUES>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~y~무단 거주자:~w~ 또 뭐예요? 그냥 여기 앉아 있는 거예요. 아무 피해 없잖아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 여기 누군가의 사유지예요. 친구랑 같이 지금 당장 나가야 해요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~무단 거주자:~w~ 안 나가요. 집이 버려진 것 같아서요. 이틀 동안 있었는데 아무 말도 없었잖아요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 얼마나 있었는지는 관계없어요. 집주인이 무단 침입 신고를 했어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~무단 거주자:~w~ 그래요? 그럼 직접 말하지 경찰 뒤에 숨을 게 아니라.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 됐어요. 다시 말하지 않겠어요, 짐 챙겨서 나가세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="aggressive"><![CDATA[~y~무단 거주자:~w~ 안 나가요. 억지로 내쫓을 거예요?]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[집주인이 ~o~화재 경보~w~ 작동됐다고 신고함. 현장 확보 요망!]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~r~화재 원인~w~ 확인 후 ~y~인근 지역 대피~w~ 및 현장 확보 요망.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[집주인이 이웃과 ~y~분쟁~w~을 신고함.]]></FURTHERINFORMATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="angry"><![CDATA[~y~집주인:~w~ 내 집 주변에 쓰레기 버리는 게 항의하는 방법이라고 생각했어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~이웃:~w~ 말했잖아요, 공유 공간을 대하는 방식에 질렸어요. 뭔가는 해야 했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 잠깐요, 충분해요. 무슨 일인지 말씀해 주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="frustrated"><![CDATA[~y~집주인:~w~ 경관님, 담장 옆, 현관문 근처, 옆 벽 쪽에도 쓰레기봉투를 갖다 놨어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="defensive"><![CDATA[~o~이웃:~w~ 버린 게 아니라 그냥... 거기 놓은 거예요. 말다툼 후에요. 계속 있으려던 게 아니었어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 타인의 재산에 생활 쓰레기를 갖다 놓은 거예요. 그건 항의가 아니라 범칙 행위에요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="annoyed"><![CDATA[~o~이웃:~w~ 알았어요. 화가 났었어요, 그리고 생각을 못 했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지금 바로 봉투를 모두 치워야 해요. 다시 이런 일이 생기면 과태료를 물게 될 거예요. 알겠어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="reluctant"><![CDATA[~o~이웃:~w~ 네. 치울게요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="grateful"><![CDATA[~y~집주인:~w~ 감사합니다, 경관님. 그냥 좀 평화롭게 지내고 싶어요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[주택의 ~y~사무침 경보~w~ ~g~해제~w~됨.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~y~집주인:~w~ 경관님! 죄송해요, 저 때문이에요. 누군가 올 줄 알았어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 안녕하세요. 이 주택에서 사무침 경보 신고를 받았어요. 이상 없으신가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="embarrassed"><![CDATA[~y~집주인:~w~ 네, 제가 실수했어요. 이 집은 가족 별장이에요. 몇 달 동안 안 왔는데, 경보 코드를 완전히 잊어버렸어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이미 해제하셨나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="relieved"><![CDATA[~y~집주인:~w~ 그렇게요, 몇 번 시도 끝에 됐어요. 놀라게 해서 죄송해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그럴 수 있어요. 신분증이나 이 주택과 연결되는 증빙 자료 있으세요? 확인이 필요해서요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="cooperative"><![CDATA[~y~집주인:~w~ 네, 면허증 가지고 있어요. 드릴까요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 부탁드려요. 확인되면 가겠습니다.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주민이 집 인근에서 ~y~원인 불명의 소란~w~을 신고함. 연락 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[~y~발목 태그~w~ 모니터 추적 중. ~y~위치 업데이트~w~를 위해 지도 확인 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[경찰관들이 ~y~방치된 호송 차량~w~에 출동 중. ~r~총기 분실~w~ 보고됨. 용의자가 ~r~무장 상태이고 위험할 수 있음~w~.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE EMOTION="anxious"><![CDATA[~y~집주인:~w~ 경관님! 빨리 오셔서 감사해요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 이 주택 인근에서 소란 신고를 받았어요. 신고하신 분이세요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uneasy"><![CDATA[~y~집주인:~w~ 네, 그냥 배회하는 사람이 아니었어요. 탈주 죄수인 것 같았어요. 주황색 죄수복을 입고 있었어요.]]></DIALOGUE> // The prisoner can only be male.
+			<DIALOGUE><![CDATA[~b~당신:~w~ 접근하던가요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="disturbed"><![CDATA[~y~집주인:~w~ 갑자기 나타나서 옆문을 두드렸어요. 들어가게 해달라고 했어요, 춥고 물이 필요하다고요. 근데 뭔가 이상했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그다음엔요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="alarmed"><![CDATA[~y~집주인:~w~ 안 된다고 했더니 경찰에 신고하겠다고 했는데, 싫어하는 눈치였어요. 긴장하더니 앞으로 다가와서 들어갈 방법을 찾는 것처럼 두리번거렸어요. 바로 문을 닫고 잠갔어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 그 이후에 다른 행동은 없었나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="worried"><![CDATA[~y~집주인:~w~ 손잡이를 돌리더니 세게 한 번 두드렸어요. 그러고는 물러서서 뛰기 시작했어요. 쫓지 않고 경찰에 신고했어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 어느 방향으로 달아났나요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="uncertain"><![CDATA[~y~집주인:~w~ 확실히 말하기 어려워요. 금방 시야에서 사라졌어요. 뒤쪽 어딘가였어요.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 알겠어요. 잘 대처하셨어요. 안에 있으면서 모든 문을 잠가두세요. 흔적을 찾아볼게요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[주택에서 ~o~위협적인~w~ 동물 발견됨.~n~~y~적절히 처리~w~ 바람.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[주택에서 ~g~순한~w~ 동물 발견됨.~n~~y~적절히 처리~w~ 바람.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[이건 ~y~후속~w~ 신고임. 이 주택에서 ~y~최근 소란이 있었음~w~. ~b~확인차 방문~w~ 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+	<OUTCOME>
+		<FURTHERINFORMATION><![CDATA[주거지에서 ~y~사무침 경보~w~ 작동됨. ~y~조사~w~ 요망.]]></FURTHERINFORMATION>
+	</OUTCOME>
+</CALLOUT>

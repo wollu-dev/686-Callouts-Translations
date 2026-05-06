@@ -1,0 +1,38 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[위험 무기 소지 신고]]></CALLOUTMESSAGE>
+		<NOTIFICATION><![CDATA[~r~용의자 이동 중!~w~~n~업데이트된 위치로 이동 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	<NOTIFICATION><![CDATA[불안해하는]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 거기 있어요, 손을 주머니에서 빼세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~용의자:~w~ 왜요? 저는 아무것도 안 했어요. 아무것도!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 지시에 따라주세요, 알겠죠?]]></DIALOGUE>
+			<DIALOGUE EMOTION="scared"><![CDATA[~r~용의자:~w~ 무슨 일이에요? 어떻게 하려는 거예요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 손을 들어주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="fearful"><![CDATA[~r~용의자:~w~ 싫어요! 저리 가요! 지금 당장!]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME1>
+	<OUTCOME2>
+	</OUTCOME2>
+	<OUTCOME3>
+		<NOTIFICATION><![CDATA[용의자 체포 후 적절히 처리 바람.]]></NOTIFICATION>
+		<DIALOGUES>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 거기 있어요, 손이 보이게 해주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="confused"><![CDATA[~r~용의자:~w~ 왜요?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무기를 소지하고 있다는 걸 알고 있어요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="shocked"><![CDATA[~r~용의자:~w~ 아 이런... 아...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 무슨 문제 있어요?]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 제발요, 죄송해요! 의도한 게 아니었어요...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮아요, 나중에 얘기할 수 있어요. 지시를 따라주세요.]]></DIALOGUE>
+			<DIALOGUE EMOTION="apologetic"><![CDATA[~r~용의자:~w~ 다시는 절대 안 가지고 다닐 거예요, 전과에 남기고 싶지 않아요...]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~당신:~w~ 괜찮아요, 해치려는 게 아니에요. 손들어주세요.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->

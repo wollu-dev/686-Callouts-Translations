@@ -1,0 +1,28 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[구역 감시 필요]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[~y~{0}~w~의 마커로 이동해서 지정 구역에 ~b~경찰 존재감~w~ 확보 요망.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[정차 후 ~o~수상한 활동~w~ 감시 요망.]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[인근에서 ~r~수상한 가방~w~ 발견됨!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~가방을 투척한 인물~w~을 찾아서 폭탄 ~o~해제~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~폭발물 설치 용의자 발견~w~. 체포 시 ~g~폭탄 해제 코드~w~ 입수 가능.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~해제 코드 획득~w~. ~r~폭탄~w~으로 이동 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 해제 코드 없이 ~r~폭탄 해제~w~ 가능. (코드는 가방 투척자가 소지)]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~{0}~w~ 키를 눌러 해제 코드로 ~r~폭탄 해제~w~ 요망.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[해제 코드 입력 요망. (1~9 중 숫자)]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[해제 코드 추측 요망. (1~9 중 숫자)]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~폭탄 해제 실패~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~g~폭탄 해제 성공~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[해제 코드: ~g~{0}~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~r~잘못된 입력.~w~ ~y~1~w~ 이상 ~y~9~w~ 이하의 숫자 입력 요망.]]></NOTIFICATION>
+	</OUTCOME>
+	<OUTCOME>
+		<NOTIFICATION><![CDATA[구역 감시 ~g~이상 없이~w~ 종료됨. 순찰 복귀.]]></NOTIFICATION>
+	</OUTCOME>
+</CALLOUT>
